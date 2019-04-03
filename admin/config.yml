@@ -1,0 +1,5 @@
+backend:
+  name: github
+  repo: densitydesign/infopoetry-website
+
+media_folder: "assets/images/uploads"
