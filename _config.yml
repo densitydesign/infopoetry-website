@@ -1,0 +1,16 @@
+# baseurl: /infopoetry
+
+collections:
+  infopoetries:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "infopoetries"
+    values:
+      layout: "infopoetry"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
