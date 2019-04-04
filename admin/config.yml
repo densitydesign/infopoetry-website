@@ -67,6 +67,7 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Topic", name: "topic", hint: "Must be a valid entry from the Topics collection", widget: "relation", collection: "topics", searchFields: ["title"], valueField: "title"}
       - {label: "Medium", name: "medium", hint: "Must be a valid entry from the Mediums collection", widget: "relation", collection: "mediums", searchFields: ["title"], valueField: "title"}
+      - {label: "Is Interactive", name: "interactive", widget: "boolean"}
       - {label: "Institute", name: "institute", hint: "Must be a valid entry from the Institutes collection", widget: "relation", collection: "institutes", searchFields: ["title"], valueField: "title"}
       - {label: "Featured image", name: "featured", widget: "image", allow_multiple: false}
       - {label: "Other images", name: "images", widget: "image"}
