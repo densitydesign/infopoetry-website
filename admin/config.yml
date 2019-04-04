@@ -5,9 +5,8 @@ backend:
 media_folder: "assets/images/uploads"
 
 collections:
-  - label: "Press release"
+  - label: "Press releases"
     name: "release"
-    hint: "Here you can add and modify the list of link for the press release."
     files:
       - label: "Press links"
         name: "press"
@@ -55,18 +54,19 @@ collections:
             widget: "list"
             fields:
               - {label: "Institute name", name: "title", widget: "string"}
-  # - label: "Infopoetries"
-  #   name: "infopoetries"
-  #   folder: "_infopoetries"
-  #   extension: "frontmatter"
-  #   create: true
-  #   fields:
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Author", name: "author", widget: "string"}
-  #     - {label: "Description", name: "body", hint: "try to put no more than 300 characters", widget: "text"}
-  #     - {label: "Year", name: "year", widget: "string"}
-  #     - {label: "Topic", name: "topic", hint: "Must be a valid entry from the Topics collection", widget: "relation", collection: "topics", searchFields: ["title"], valueField: "title"}
-  #     - {label: "Medium", name: "medium", hint: "Must be a valid entry from the Mediums collection", widget: "relation", collection: "mediums", searchFields: ["title"], valueField: "title"}
-  #     - {label: "Institute", name: "institute", hint: "Must be a valid entry from the Institutes collection", widget: "relation", collection: "institutes", searchFields: ["title"], valueField: "title"}
-  #     - {label: "Featured image", name: "featured", widget: "image", allow_multiple: false}
-  #     - {label: "Other images", name: "images", widget: "image"}
+  - label: "Infopoetries"
+    name: "infopoetries"
+    folder: "_infopoetries"
+    extension: "md"
+    format: "frontmatter"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Description", name: "body", hint: "try to put no more than 300 characters", widget: "text"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Topic", name: "topic", hint: "Must be a valid entry from the Topics collection", widget: "relation", collection: "topics", searchFields: ["title"], valueField: "title"}
+      - {label: "Medium", name: "medium", hint: "Must be a valid entry from the Mediums collection", widget: "relation", collection: "mediums", searchFields: ["title"], valueField: "title"}
+      - {label: "Institute", name: "institute", hint: "Must be a valid entry from the Institutes collection", widget: "relation", collection: "institutes", searchFields: ["title"], valueField: "title"}
+      - {label: "Featured image", name: "featured", widget: "image", allow_multiple: false}
+      - {label: "Other images", name: "images", widget: "image"}
