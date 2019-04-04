@@ -28,8 +28,7 @@ collections:
           - label: "Topics"
             name: "list"
             widget: "list"
-            fields:
-              - {label: "Topic name", name: "title", widget: "string"}
+            field: {label: "Topic name", name: "title", widget: "string"}
   - label: "Mediums"
     name: "mediums"
     files:
@@ -40,8 +39,7 @@ collections:
           - label: "Mediums"
             name: "list"
             widget: "list"
-            fields:
-              - {label: "Medium name", name: "title", widget: "string"}
+            field: {label: "Medium name", name: "title", widget: "string"}
   - label: "Institutes"
     name: "institutes"
     files:
@@ -52,8 +50,7 @@ collections:
           - label: "Institutes"
             name: "list"
             widget: "list"
-            fields:
-              - {label: "Institute name", name: "title", widget: "string"}
+            field: {label: "Institute name", name: "title", widget: "string"}
   - label: "Infopoetries"
     name: "infopoetries"
     folder: "_infopoetries"
