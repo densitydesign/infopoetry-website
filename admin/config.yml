@@ -18,7 +18,7 @@ collections:
             widget: "list"
             fields:
               - {label: "Title", name: "title", widget: "string"}
-              - {label: "Link", name: "link", widget: "string", pattern: ["^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$", "Must be a link."]}
+              - {label: "Link", name: "link", widget: "string"}
   - label: "Infopoetries"
     name: "infopoetries"
     folder: "_infopoetries"
