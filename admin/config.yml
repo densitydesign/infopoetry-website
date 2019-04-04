@@ -55,7 +55,7 @@ collections:
             fields:
               - {label: "Institute name", name: "title", widget: "string"}
   - label: "Infopoetries"
-    name: "infopoetry"
+    name: "infopoetries"
     folder: "_infopoetries"
     extension: "md"
     format: "frontmatter"
