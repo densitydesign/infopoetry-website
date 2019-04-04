@@ -21,11 +21,11 @@ collections:
   - label: "Topics"
     name: "topics"
     files:
-      - label: "Topics"
+      - label: "Topics list"
         name: "topics-list"
         file: "_data/topics.yml"
         fields:
-          - label: "Topics list"
+          - label: "Topics"
             name: "list"
             widget: "list"
             fields:
@@ -33,11 +33,11 @@ collections:
   - label: "Mediums"
     name: "mediums"
     files:
-      - label: "Mediums"
+      - label: "Mediums list"
         name: "mediums-list"
         file: "_data/mediums.yml"
         fields:
-          - label: "Mediums list"
+          - label: "Mediums"
             name: "list"
             widget: "list"
             fields:
@@ -45,11 +45,11 @@ collections:
   - label: "Institutes"
     name: "institutes"
     files:
-      - label: "Institutes"
+      - label: "Institutes list"
         name: "institutes-list"
         file: "_data/institutes.yml"
         fields:
-          - label: "Institutes list"
+          - label: "Institutes"
             name: "list"
             widget: "list"
             fields:
