@@ -3,3 +3,18 @@ backend:
   repo: densitydesign/infopoetry-website
 
 media_folder: "assets/images/uploads"
+
+collections:
+  - label: "Press info"
+    name: "press-info"
+    files:
+      - label: "Press links"
+        name: "press"
+        file: "_data/press.yml"
+        fields:
+          - label: "Links"
+            name: "links"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
