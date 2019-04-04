@@ -21,7 +21,7 @@ collections:
   - label: "Topics"
     name: "topics"
     files:
-      - label: "Topics list"
+      - label: "Topics"
         name: "topics-list"
         file: "_data/topics.yml"
         fields:
@@ -33,7 +33,7 @@ collections:
   - label: "Mediums"
     name: "mediums"
     files:
-      - label: "Mediums list"
+      - label: "Mediums"
         name: "mediums-list"
         file: "_data/mediums.yml"
         fields:
@@ -45,7 +45,7 @@ collections:
   - label: "Institutes"
     name: "institutes"
     files:
-      - label: "Institutes list"
+      - label: "Institutes"
         name: "institutes-list"
         file: "_data/institutes.yml"
         fields:
