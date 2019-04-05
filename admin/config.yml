@@ -61,6 +61,7 @@ collections:
 
   - label: "Infopoetries"
     name: "infopoetries"
+    label_singular: "Infopoetry"
     folder: "_infopoetries"
     extension: "md"
     format: "frontmatter"
