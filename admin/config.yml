@@ -51,6 +51,8 @@ collections:
     name: "institutes"
     label_singular: "Institute"
     description: "This is the list of institutes from which the infopoetries come from. If a new one should appear, add it here"
+    editor:
+      preview: false
     folder: "_institutes"
     extension: "yml"
     create: true
