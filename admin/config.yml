@@ -8,6 +8,9 @@ collections:
   - label: "Press releases"
     name: "release"
     description: "Add here all the links of the Press Release."
+    delete: false
+    editor:
+      preview: false
     files:
       - label: "Press links"
         name: "press"
@@ -24,6 +27,8 @@ collections:
     name: "topics"
     label_singular: "Topic"
     description: "This is the list of topics used to categorize the infopoetries. If a new one should appear, add it here."
+    editor:
+      preview: false
     folder: "_topics"
     extension: "yml"
     create: true
@@ -34,6 +39,8 @@ collections:
     name: "mediums"
     label_singular: "Medium"
     description: "This is the list of mediums used to build the infopoetries. If a new one should appear, add it here."
+    editor:
+      preview: false
     folder: "_mediums"
     extension: "yml"
     create: true
