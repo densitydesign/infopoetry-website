@@ -68,12 +68,18 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", hint: "add only if present", required: false}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Description", name: "body", hint: "try to put no more than 300 characters", widget: "text"}
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Topic", name: "topic", hint: "Must be a valid entry from the Topics collection. If you can't find the right one, go to the Topics section in the CMS and add it", widget: "relation", collection: "topics", searchFields: ["title"], valueField: "title"}
       - {label: "Medium", name: "medium", hint: "Must be a valid entry from the Mediums collection. If you can't find the right one, go to the Mediums section in the CMS and add it", widget: "relation", collection: "mediums", searchFields: ["title"], valueField: "title"}
       - {label: "Is Interactive", name: "interactive", widget: "boolean"}
+      - {label: "Material", name: "material", widget: "string", hint: "insert only if medium is an object or a particular kind of poster", required: false}
       - {label: "Institute", name: "institute", hint: "Must be a valid entry from the Institutes collection. If you can't find the right one, go to the Insitutes section in the CMS and add it", widget: "relation", collection: "institutes", searchFields: ["title"], valueField: "title"}
-      - {label: "Featured image", name: "featured", widget: "image", allow_multiple: false}
-      - {label: "Other images", name: "images", widget: "image"}
+      - {label: "Featured image", name: "featured", widget: "image", allow_multiple: false, required: false}
+      - {label: "Other images", name: "images", widget: "image", hint: "add only if present", required: false}
+      - {label: "Video", name: "video", widget: "file", hint: "add only if present", allow_multiple: false, required: false}
+      - {label: "Source of the data", name: "source", widget: "string"}
+      - {label: "Metaphor used", name: "methaphor", widget: "text"}
+      - {label: "Intended meaning", name: "meaning", widget: "text"}
