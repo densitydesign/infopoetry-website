@@ -76,9 +76,14 @@ collections:
       - {label: "Medium", name: "medium", hint: "must be a valid entry from the Mediums collection. If you can't find the right one, go to the Mediums section in the CMS and add it", widget: "relation", collection: "mediums", searchFields: ["title"], valueField: "title"}
       - {label: "Is Interactive", name: "interactive", widget: "boolean"}
       - {label: "Material", name: "material", widget: "string", hint: "insert only if medium is an object or a particular kind of poster", required: false}
+      - {label: "Size", name: "size", widget: "string", hint: "insert only if medium is an object or a particular kind of poster", required: false}
       - {label: "Institute", name: "institute", hint: "must be a valid entry from the Institutes collection. If you can't find the right one, go to the Insitutes section in the CMS and add it", widget: "relation", collection: "institutes", searchFields: ["title"], valueField: "title"}
       - {label: "Featured image", name: "featured", widget: "image", allow_multiple: false}
-      - {label: "Other images", name: "images", widget: "image", required: false}
+      - label: "Other images"
+        name: "images"
+        widget: "list"
+        required: false
+        field: {label: "Image", name: "image", widget: image}
       - {label: "Video", name: "video", widget: "file", allow_multiple: false, required: false}
       - {label: "Source of the data", name: "source", widget: "string"}
       - {label: "Metaphor used", name: "methaphor", widget: "text"}
