@@ -1,6 +1,12 @@
 html {
+    --grid-columns: 12;
+    --grid-gap: 12px;
     --color-dark: #000000;
     --color-light: #ffffff;
     font-family: 'Libre Baskerville', serif;
     --font-bold: 700;
+}
+
+body {
+    margin: 1% 2%;
 }

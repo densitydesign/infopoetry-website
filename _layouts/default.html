@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>{{ page.title }}</title>
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet"> 
-        <link rel="stylesheet" href="{{ '/assets/css/master.css' | relative_url }}">
-    </head>
-    <body>
-        {% include navigation.html %}
-        {{ content }}
-        {% include footer.html %}
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/master.css' | relative_url }}">
+    {% if page.layout == 'default' %}
+    <link rel="stylesheet" href="{{ '/assets/css/page.css' | relative_url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/assets/css/infopoetry.css' | relative_url }}">
+    {% endif %}
+</head>
+
+<body>
+    {% include navigation.html %}
+    {{ content }}
+    {% include footer.html %}
+</body>
+
 </html>

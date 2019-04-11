@@ -4,7 +4,10 @@ collections:
   infopoetries:
     output: true
     permalink: /:collection/:name
+  topics:
   mediums:
+  institutes:
+  
 
 defaults:
   - scope:

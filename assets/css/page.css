@@ -1,0 +1,9 @@
+header {
+    width: 100%;
+    height: calc(100vh - 100vw * 0.02);
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: var(--grid-gap);
+    grid-gap: var(--grid-gap);
+}
