@@ -20,8 +20,8 @@ collections:
             name: "links"
             widget: "list"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
               - {label: "Link", name: "link", widget: "string"}
+              - {label: "Year", name: "year", hint: "format must be YYYY, e.g. 2019", widget: "string"}
 
   - label: "Topics"
     name: "topics"
