@@ -72,7 +72,12 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-      - {label: "Author", name: "author", widget: "string"}
+      - label: "Author"
+        name: "auhtor"
+        widget: "object"
+        fields:
+          - {label: "Author Name", name: "name", widget: "string"}
+          - {label: "Author Link", name: "link", widget: "string", required: false}
       - {label: "Description", name: "body", hint: "try to put no more than 300 characters", widget: "text"}
       - {label: "Year", name: "year", hint: "must be an academic year, e.g. 2018-2019", widget: "string"}
       - {label: "Topic", name: "topic", hint: "must be a valid entry from the Topics collection. If you can't find the right one, go to the Topics section in the CMS and add it", widget: "relation", collection: "topics", searchFields: ["title"], valueField: "title"}

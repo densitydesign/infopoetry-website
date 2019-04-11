@@ -1,6 +1,7 @@
 ---
 title: See what you're missing
-author: Yixiao Cai
+author:
+  name: Yixiao Cai
 year: 2018-2019
 topic: Health
 medium: Video

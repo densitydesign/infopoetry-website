@@ -5,8 +5,13 @@ html {
     --color-light: #ffffff;
     font-family: 'Libre Baskerville', serif;
     --font-bold: 700;
+    color: var(--color-dark);
 }
 
 body {
     margin: 1% 2%;
+}
+
+h1 {
+    margin: 0;
 }
