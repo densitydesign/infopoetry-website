@@ -31,6 +31,7 @@ collections:
       preview: false
     folder: "_topics"
     extension: "yml"
+    format: "yaml-frontmatter"
     create: true
     fields:
       - {label: "Topic name", name: "title", widget: "string"}
@@ -43,6 +44,7 @@ collections:
       preview: false
     folder: "_mediums"
     extension: "yml"
+    format: "yaml-frontmatter"
     create: true
     fields:
       - {label: "Medium name", name: "title", widget: "string"}
@@ -55,6 +57,7 @@ collections:
       preview: false
     folder: "_institutes"
     extension: "yml"
+    format: "yaml-frontmatter"
     create: true
     fields:
       - {label: "Institute name", name: "title", widget: "string"}
@@ -90,7 +93,7 @@ collections:
         widget: "object"
         required: false
         fields:
-          - {label: "Source Name", name: "name", widget: "string"}
+          - {label: "Source Name", name: "name", widget: "string", required: false}
           - {label: "Source Link", name: "link", widget: "string", required: false}
       - {label: "Metaphor used", name: "methaphor", widget: "text", required: false}
       - {label: "Intended meaning", name: "meaning", widget: "text", required: false}
