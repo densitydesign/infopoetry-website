@@ -88,6 +88,7 @@ collections:
         required: false
         field: {label: "Image", name: "image", widget: image, required: false}
       - {label: "Video", name: "video", widget: "file", allow_multiple: false, required: false}
+      - {label: "Website", name: "website", hint: "insert the link to an actual website if present, otherwise the name of the folder that will be uploaded on our repo", widget: "string", required: false}
       - label: "Source of the data"
         name: "source"
         widget: "object"
