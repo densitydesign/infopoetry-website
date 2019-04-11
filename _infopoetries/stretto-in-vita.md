@@ -1,7 +1,7 @@
 ---
 title: Stretto in vita
 subtitle: a circle around eating disorders
-author:
+auhtor:
   name: Sara Dalla Rosa
 year: 2018-2019
 topic: Health
