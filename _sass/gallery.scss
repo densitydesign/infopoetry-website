@@ -1,0 +1,57 @@
+.infopoetries {
+    width: calc(var(--grid-column-unit) * 9 + var(--grid-gap) * 12);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto 0;
+}
+
+.infopoetry {
+    width: calc(var(--grid-column-unit) * 3 + var(--grid-gap) * 2);
+    height: calc(var(--grid-column-unit) * 3 + var(--grid-gap) * 2);
+    margin: calc(var(--grid-gap));
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+.infopoetry img {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.infopoetry:hover img {
+    opacity: 0.4;
+}
+
+.infopoetry__content {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    opacity: 0;
+}
+
+.infopoetry:hover .infopoetry__content {
+    opacity: 1;
+}
+
+.infopoetry h2,
+.infopoetry h3,
+.infopoetry p {
+    margin: 0;
+}
+
+.infopoetry h2 {
+    font-size: 2.4rem;
+}
+
+.infopoetry h3 {
+    margin-bottom: 1rem;
+}

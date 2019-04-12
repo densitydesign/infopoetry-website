@@ -1,6 +1,6 @@
 ---
 title: Atrabile
-auhtor:
+author:
   name: Elena Aversa
 year: 2017-2018
 topic: Society

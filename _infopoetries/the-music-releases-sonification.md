@@ -1,6 +1,6 @@
 ---
 title: The music releases sonification
-auhtor:
+author:
   name: Bisceglia Vincenzo
 year: 2016-2017
 topic: Culture

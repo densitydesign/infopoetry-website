@@ -1,6 +1,8 @@
 html {
+    --width: calc(100vw * 0.96);
     --grid-columns: 12;
     --grid-gap: 12px;
+    --grid-column-unit: calc((var(--width) - var(--grid-gap) * (var(--grid-columns) - 1)) / 12);
     --color-dark: #000000;
     --color-light: #ffffff;
     font-family: 'Libre Baskerville', serif;
@@ -14,4 +16,9 @@ body {
 
 h1 {
     margin: 0;
+}
+
+main {
+    width: calc(var(--width) - var(--grid-column-unit) * 2 - var(--grid-gap) * 2);
+    margin: 2rem auto;
 }

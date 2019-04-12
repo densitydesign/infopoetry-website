@@ -1,6 +1,6 @@
 ---
 title: See what you're missing
-auhtor:
+author:
   name: Yixiao Cai
 year: 2018-2019
 topic: Health

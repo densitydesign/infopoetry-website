@@ -1,6 +1,6 @@
 ---
 title: War filings
-auhtor:
+author:
   name: Daniele Zanetti
 year: 2018-2019
 topic: Wars and conflicts
