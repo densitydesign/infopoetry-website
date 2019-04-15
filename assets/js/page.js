@@ -112,7 +112,6 @@ $(document).ready(function () {
         const instituteFilter = evaluateFilters('institute');
         const newFilter = [...topicFilter, ...mediumFilter, ...yearFilter, ...instituteFilter];
         const newFilterValue = newFilter.length ? `.infopoetry${newFilter.join('')}` : '*';
-        // console.log(newFilter);
 
         $infopoetriesContainer.isotope({
             filter: newFilterValue

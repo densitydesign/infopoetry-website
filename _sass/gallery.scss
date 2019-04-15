@@ -1,3 +1,8 @@
+main {
+    width: calc(var(--width) - var(--grid-column-unit) * 2 - var(--grid-gap) * 2);
+    margin: 2rem auto;
+}
+
 .infopoetries {
     width: calc(var(--grid-column-unit) * 9 + var(--grid-gap) * 12);
     display: flex;

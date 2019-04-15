@@ -1,0 +1,10 @@
+.media {
+    width: calc(var(--grid-column-unit) * 5.5 + var(--grid-gap) * 5);
+}
+
+.media img,
+.media video {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: calc(var(--grid-gap) * 2);
+}

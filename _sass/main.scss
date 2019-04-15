@@ -3,6 +3,8 @@ html {
     --grid-columns: 12;
     --grid-gap: 12px;
     --grid-column-unit: calc((var(--width) - var(--grid-gap) * (var(--grid-columns) - 1)) / 12);
+    --viewport-height: calc(100vh - 100vw * 0.02);
+    --grid-row-unit: calc((var(--viewport-height) - var(--grid-gap) * 7) / 8);
     --color-dark: #000000;
     --color-light: #ffffff;
     font-family: 'Libre Baskerville', serif;
@@ -12,13 +14,4 @@ html {
 
 body {
     margin: 1% 2%;
-}
-
-h1 {
-    margin: 0;
-}
-
-main {
-    width: calc(var(--width) - var(--grid-column-unit) * 2 - var(--grid-gap) * 2);
-    margin: 2rem auto;
 }

@@ -1,3 +1,37 @@
 ---
 layout: default
 ---
+<main>
+    <div class="content">
+        <div class="content__header">
+            <h1>{{ page.title }}</h1>
+            <p>By {{ page.author.name }}</p>
+        </div>
+        <div class="content__description">
+            {{ page.content }}
+            {% if page.website %}
+            {% assign checkLink = page.website | slice: 0, 4 %}
+            <a href="{% if checkLink == 'http' %}{{ page.website }}{% else %}{{ page.website | prepend: 'assets/websites/' | relative_url }}{% endif %}" target="_blank"><strong>Link to website</strong></a>
+            {% endif %}
+        </div>
+        <div class="content__metadata">
+            <p><strong>Topic:</strong> {{ page.topic }}</p>
+            <p><strong>Medium:</strong> {{ page.medium }}{% if page.medium != 'Website' and page.interactive %}, interactive{% endif %}</p>
+            {% if page.material %}<p><strong>Material:</strong> {{ page.material }}</p>{% endif %}
+            <p><strong>Institute:</strong> {{ page.institute }}</p>
+            <p><strong>Year:</strong> a.a. {{ page.year }}</p>
+        </div>
+    </div>
+    <div class="media">
+        <img src="{{ page.featured }}" alt="Featured image of the project {{ page.title }}">
+        {% if page.video %}
+        <video controls>
+            <source src="{{ page.video }}" type="video/mp4">
+            <p>Your browser doesn't support HTML5 video. Here is a <a href="{{ page.video }}">link to the video</a> instead.</p>
+        </video>
+        {% endif %}
+        {% for image in page.images %}
+        <img src="{{ image }}" alt="Complementary image of the project {{ page.title }}">
+        {% endfor %}
+    </div>
+</main>

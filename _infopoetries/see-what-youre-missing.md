@@ -11,7 +11,7 @@ featured: /assets/images/uploads/cai02.png
 images:
   - /assets/images/uploads/cai01.png
   - /assets/images/uploads/cai02.png
-video: /assets/images/uploads/infopoetry_cai.m4v
+video: /assets/images/uploads/infopoetry_cai.mp4
 source:
   link: 'https://bmcophthalmol.biomedcentral.com/articles/10.1186/s12886-017-0483-6'
   name: >-
