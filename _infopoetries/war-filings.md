@@ -3,7 +3,7 @@ title: War filings
 author:
   name: Daniele Zanetti
 year: 2018-2019
-topic: Wars and conflicts
+topic: Human Rights
 medium: Object
 interactive: false
 material: 'Cardboard, Magnets, Iron Filings'

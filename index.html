@@ -43,10 +43,10 @@ title: Home
     </div>
     <div class="infopoetries">
         {% for infopoetry in site.infopoetries %}
-        <div class="infopoetry">
+        <div class="infopoetry {{ infopoetry.topic | slugify: 'latin' }} {{ infopoetry.medium | slugify: 'latin' }} {{ infopoetry.year | slugify: 'latin' | prepend: 'aa' }} {{ infopoetry.institute | slugify: 'latin' }}" data-year="{{ infopoetry.year | slice: -4, 4 }}">
             <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" data-src="{{ infopoetry.featured | relative_url }}" alt="Feature image for the project {{ infopoetry.title }}">
             <div class="infopoetry__content">
-                <h2>{{ infopoetry.title }}</h2>
+                <h2 class="sort--title">{{ infopoetry.title }}</h2>
                 <div class="infopoetry__desc">
                     <h3>by {{ infopoetry.author.name }}</h3>
                     <p>{{ infopoetry.topic }}</p>
