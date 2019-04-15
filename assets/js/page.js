@@ -92,9 +92,19 @@ $(document).ready(function () {
                 inclusives.push(`:not(.${el.id})`);
             }
         });
+        
+        // add astericks to filter title to show that at least one of the filter is on
+        const categoryTitle = $(`#${category}`);
+        const categoryText = categoryTitle.html();
+        if (inclusives.length && inclusives.length < $subchoices.length) {
+            categoryTitle.html(function(){ return categoryText.includes('*') ? categoryText : categoryText.replace('<span', '*<span')});
+        } else {
+            categoryTitle.html(categoryText.replace('*', ''));
+        }
+
         return inclusives.length < $subchoices.length ? inclusives : [];
     };
-    
+
     function updateGallery() {
         const topicFilter = evaluateFilters('topic');
         const mediumFilter = evaluateFilters('medium');

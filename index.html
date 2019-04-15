@@ -8,7 +8,7 @@ title: Home
 <main>
     <div class="filters">
         <div class="filter">
-            <p class="filter__title">Topic<span>&#8250;</span></p>
+            <p class="filter__title" id="topic">Topic<span class="filter__arrow">&#8250;</span></p>
             <div class="filter__choices">
                 {% for topic in site.topics %}
                 <div><label for="{{ topic.title | slugify: 'latin' }}">{{ topic.title }}</label><input type="checkbox" name="topic" id="{{ topic.title | slugify: 'latin' }}"><span class="filter__check"></span></div>
@@ -16,7 +16,7 @@ title: Home
             </div>
         </div>
         <div class="filter">
-            <p class="filter__title">Medium<span>&#8250;</span></p>
+            <p class="filter__title" id="medium">Medium<span class="filter__arrow">&#8250;</span></p>
             <div class="filter__choices">
                 {% for medium in site.mediums %}
                 <div><label for="{{ medium.title | slugify: 'latin' }}">{{ medium.title }}</label><input type="checkbox" name="medium" id="{{ medium.title | slugify: 'latin' }}"><span class="filter__check"></span></div>
@@ -24,7 +24,7 @@ title: Home
             </div>
         </div>
         <div class="filter">
-            <p class="filter__title">Year<span>&#8250;</span></p>
+            <p class="filter__title" id="year">Year<span class="filter__arrow">&#8250;</span></p>
             <div class="filter__choices">
                 {% assign years = site.infopoetries | group_by:"year" | sort: "name" | reverse %}
                 {% for year in years %}
@@ -33,17 +33,17 @@ title: Home
             </div>
         </div>
         <div class="filter">
-            <p class="filter__title">Institute<span>&#8250;</span></p>
+            <p class="filter__title" id="institute">Institute<span class="filter__arrow">&#8250;</span></p>
             <div class="filter__choices">
                 {% for institute in site.institutes %}
                 <div><label for="{{ institute.title | slugify: 'latin' }}">{{ institute.title }}</label><input type="checkbox" name="institute" id="{{ institute.title | slugify: 'latin' }}"><span class="filter__check"></span></div>
                 {% endfor %}
-                </div>
             </div>
+        </div>
     </div>
     <div class="infopoetries">
         {% for infopoetry in site.infopoetries %}
-        <div class="infopoetry {{ infopoetry.topic | slugify: 'latin' }} {{ infopoetry.medium | slugify: 'latin' }} {{ infopoetry.year | slugify: 'latin' | prepend: 'aa' }} {{ infopoetry.institute | slugify: 'latin' }}" data-year="{{ infopoetry.year | slice: -4, 4 }}">
+        <a href="{{ infopoetry.title | slugify: 'latin' | append: '.html' | prepend: 'infopoetries/' }}" class="infopoetry {{ infopoetry.topic | slugify: 'latin' }} {{ infopoetry.medium | slugify: 'latin' }} {{ infopoetry.year | slugify: 'latin' | prepend: 'aa' }} {{ infopoetry.institute | slugify: 'latin' }}" data-year="{{ infopoetry.year | slice: -4, 4 }}">
             <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" data-src="{{ infopoetry.featured | relative_url }}" alt="Feature image for the project {{ infopoetry.title }}">
             <div class="infopoetry__content">
                 <h2 class="sort--title">{{ infopoetry.title }}</h2>
@@ -55,7 +55,7 @@ title: Home
                     <p>{{ infopoetry.year | prepend: 'a.a. ' }}</p>
                 </div>
             </div>
-        </div>
+        </a>
         {% endfor %}
     </div>
 </main>
