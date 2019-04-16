@@ -14,8 +14,7 @@ images:
   - /assets/images/uploads/infop-13.jpg
   - /assets/images/uploads/infop-10.jpg
   - /assets/images/uploads/infop-5.jpg
-source: {}
-methaphor: |-
+metaphor: |-
   Wax is a material very particular, it can be
   used to evocate some shapes and colors.
   The installation wants to evoke a mountain

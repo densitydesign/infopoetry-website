@@ -17,7 +17,7 @@ source:
   name: >-
     The increasing prevalence of myopia in junior high school students in the
     Haidian District of Beijing, China
-methaphor: The metaphor used is Blur vs on-focus picture.
+metaphor: The metaphor used is Blur vs on-focus picture.
 meaning: >-
   Through the info-poetry work, I would like to show the serious problem of
   myopia epidemic behind the data and video. Raising the people’s awareness to

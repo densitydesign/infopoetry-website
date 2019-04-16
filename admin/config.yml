@@ -101,5 +101,5 @@ collections:
         fields:
           - {label: "Source Name", name: "name", widget: "string", required: false}
           - {label: "Source Link", name: "link", widget: "string", required: false}
-      - {label: "Metaphor used", name: "methaphor", widget: "text", required: false}
+      - {label: "Metaphor used", name: "metaphor", widget: "text", required: false}
       - {label: "Intended meaning", name: "meaning", widget: "text", required: false}

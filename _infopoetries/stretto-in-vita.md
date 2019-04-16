@@ -18,7 +18,7 @@ source:
   link: >-
     https://www.statista.com/statistics/471522/anorexia-nervosa-time-taken-for-help-united-kingdom-uk/
   name: Share of time taken to seek help for anorexia nervosa in the United Kingdom
-methaphor: >-
+metaphor: >-
   The temporal dimension is the element I want to focus the attention on. To
   represent it, I decided to use an object of daily use: the belt, an accessory
   normally used to hold clothing items such as trousers and skirts. Often the

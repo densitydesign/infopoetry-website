@@ -6,9 +6,11 @@
     grid-template-rows: repeat(8, var(--grid-row-unit));
     gap: var(--grid-gap);
     grid-gap: var(--grid-gap);
+    position: sticky;
+    top: calc(var(--width)*0.01);
 }
 
-.content p {
+.content p{
     margin: 0;
 }
 

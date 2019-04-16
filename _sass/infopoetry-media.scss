@@ -8,3 +8,15 @@
     object-fit: cover;
     margin-bottom: calc(var(--grid-gap) * 2);
 }
+
+.media__info {
+    width: calc(var(--grid-column-unit) * 4 + var(--grid-gap) * 4);
+}
+
+.media p {
+    margin: 0;
+}
+
+p.info__title {
+    margin-top: 1.6rem;
+}

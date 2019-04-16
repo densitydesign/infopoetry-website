@@ -14,7 +14,7 @@ images:
   - /assets/images/uploads/6.jpg
 source:
   name: Global Terrorism Database
-methaphor: >-
+metaphor: >-
   With this project i would like to reproduce the effects of explosives with
   iron filings. Iron filings are very small pieces of iron that look like a
   light powder. They are very often used in science demonstrations to show the
