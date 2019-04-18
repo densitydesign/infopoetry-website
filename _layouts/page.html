@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<nav>
+    <div class="nav__left">
+        <p class="nav__arrow">&#8592;</p>
+        <p class="nav__title">
+            {% case page.title %}
+            {% when 'Home' %}
+            About
+            {% when 'About' %}
+            Press Release
+            {% else %}
+            Home
+            {% endcase %}
+        </p>
+    </div>
+    <div class="nav__right">
+        <p class="nav__arrow">&#8594;</p>
+        <p class="nav__title">
+            {% case page.title %}
+            {% when 'Home' %}
+            Press Release
+            {% when 'About' %}
+            Home
+            {% else %}
+            About
+            {% endcase %}
+        </p>
+    </div>
+</nav>
+<aside style="left: -96vw;"></aside>
+<aside style="left: 100vw;"></aside>
+{{ content }}

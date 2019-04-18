@@ -1,0 +1,9 @@
+aside {
+    width: var(--width);
+    height: 100px;
+    position: absolute;
+    top: calc(100vw * 0.01);
+    visibility: hidden;
+    transition: left 1s ease;
+    background-color: aquamarine;
+}

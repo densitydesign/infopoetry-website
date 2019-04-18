@@ -1,0 +1,67 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 calc(var(--grid-column-unit) + var(--grid-gap));
+}
+
+.footer__container {
+    border-top: 2px solid var(--color-dark);
+    padding: 1.5rem 0;
+}
+
+.polimi-logo {
+    width: calc(var(--grid-column-unit));
+}
+
+.polimi-logo .st0 {
+    fill: none;
+    stroke: #231F20;
+    stroke-width: 0.463;
+    stroke-miterlimit: 10;
+}
+
+.polimi-logo .st1 {
+    fill: none;
+    stroke: #231F20;
+    stroke-width: 0.25;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.polimi-logo .st2 {
+    fill: #231F20;
+}
+
+.footer__container.density {
+    width: calc(var(--grid-column-unit) * 8 + var(--grid-gap) * 7);
+    display: flex;
+    justify-content: space-between;
+}
+
+.density-logo {
+    width: calc(var(--grid-column-unit) * 0.5);
+    align-self: flex-start;
+    margin-top: 0.4rem;
+}
+
+.footer__curated {
+    width: calc(var(--grid-column-unit) * 4 + var(--grid-gap) * 3);
+}
+
+.footer__created {
+    width: calc(var(--grid-column-unit) * 3 + var(--grid-gap) * 2);
+}
+
+footer h3 {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul,
+footer p {
+    margin: 0.4rem 0;
+}

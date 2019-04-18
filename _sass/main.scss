@@ -14,6 +14,33 @@ html {
 
 body {
     margin: 1% 2%;
+    overflow-x: hidden;
+}
+
+nav {
+    position: absolute;
+    width: var(--width);
+    top: calc(100vw * 0.01);
+    left: calc(100vw * 0.02);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div {
+    cursor: pointer;
+}
+
+nav p {
+    margin: 0;
+}
+
+.nav__title {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+main {
+    margin-bottom: 2rem;
 }
 
 a {

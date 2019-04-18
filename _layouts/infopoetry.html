@@ -6,13 +6,13 @@ layout: default
         <div class="content__header">
             <h1>{{ page.title }}</h1>
             {% if page.author.link %}
-            <p>By <a href="{{ page.author.link }}" target="_blank">{{ page.author.name }}</a></p>
+            <h2>By <a href="{{ page.author.link }}" target="_blank">{{ page.author.name }}</a></h2>
             {% else %}
-            <p>By {{ page.author.name }}</p>
+            <h2>By {{ page.author.name }}</h2>
             {% endif %}
         </div>
         <div class="content__description">
-            {{ page.content }}
+            {{ content }}
             {% if page.website %}
             {% assign checkLink = page.website | slice: 0, 4 %}
             <a href="{% if checkLink == 'http' %}{{ page.website }}{% else %}{{ page.website | prepend: 'assets/websites/' | relative_url }}{% endif %}" target="_blank"><strong>Link to website</strong></a>

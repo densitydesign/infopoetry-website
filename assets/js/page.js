@@ -1,87 +1,94 @@
 $(document).ready(function () {
     // Initialize filter states
     // console.log(history.state); 
-    const $choices = $('.filter__choices input');
-    const $infopoetriesContainer = $('.infopoetries');
-    if (history.state === null) {
-        $choices.prop('checked', false);
-    } else {
-        const stateFilters = history.state.filters;
-        $choices.each(function (i, el) {
-            $(el).prop('checked', stateFilters[el.name][el.id].checked);
-        });
-        updateGallery();
+    let $choices;
+    let $infopoetriesContainer;
+    if (history.state.currentPage === 'Home') {
+        setupGallery();
     }
 
+    function setupGallery() {
+        $choices = $('.filter__choices input');
+        $infopoetriesContainer = $('.infopoetries');
 
-    // initialize grid and add interacrions to filters
-    $infopoetriesContainer.isotope({
-        itemSelector: '.infopoetry',
-        layoutMode: 'fitRows',
-        getSortData: {
-            year: '[data-year] parseInt',
-            title: '.sort--title'
-        },
-        sortAscending: {
-            year: false,
-            title: true
-        },
-        sortBy: ['year', 'title']
-    });
+        // Initialize filter states
+        setupFilterStates();
 
-    $choices.on('change', function (e) {
-        // console.log(e.currentTarget.id);
-        // update state
-        const newState = history.state;
-        newState.filters[e.currentTarget.name][e.currentTarget.id].checked = !newState.filters[e.currentTarget.name][e.currentTarget.id].checked;
-        history.pushState(newState, null);
+        // initialize grid and add interacrions to filters
+        $infopoetriesContainer.isotope({
+            itemSelector: '.infopoetry',
+            layoutMode: 'fitRows',
+            getSortData: {
+                year: '[data-year] parseInt',
+                title: '.sort--title'
+            },
+            sortAscending: {
+                year: false,
+                title: true
+            },
+            sortBy: ['year', 'title']
+        });
 
-        updateGallery();
-        
-    });
+        $choices.on('change', function (e) {
+            // console.log(e.currentTarget.id);
+            // update state
+            const newState = history.state;
+            newState.filters[e.currentTarget.name][e.currentTarget.id].checked = !newState.filters[e.currentTarget.name][e.currentTarget.id].checked;
+            history.pushState(newState, null);
 
+            updateGallery();
 
-    // Toggle selection menu filters
-    $('.filter__title').on('click', function (e) {
-        // console.log($(e.currentTarget).children('.filter__choices'));
-        e.stopPropagation();
-        $(e.currentTarget).next('.filter__choices').toggleClass('box--open');
-    });
-    $('body').on('click', function () {
-        $('.filter__choices').removeClass('box--open');
-    });
-    $('.filter__choices').on('click', function (e) {
-        e.stopPropagation();
-    });
+        });
 
 
-    // Lazy load images code - code credits: https://developer.mozilla.org/en-US/docs/Web/Apps/Progressive/Loading
-    var imagesToLoad = document.querySelectorAll('img[data-src]');
-    var loadImages = function (image) {
-        image.setAttribute('src', image.getAttribute('data-src'));
-        image.onload = function () {
-            image.removeAttribute('data-src');
+        // Toggle selection menu filters
+        $('.filter__title').on('click', function (e) {
+            // console.log($(e.currentTarget).children('.filter__choices'));
+            e.stopPropagation();
+            $(e.currentTarget).toggleClass('box--open');
+            $(e.currentTarget).next('.filter__choices').toggleClass('box--open');
+        });
+        $('body').on('click', function () {
+            $('.filter__title').removeClass('box--open');
+            $('.filter__choices').removeClass('box--open');
+        });
+        $('.filter__choices').on('click', function (e) {
+            e.stopPropagation();
+        });
+
+
+        // Lazy load images code - code credits: https://developer.mozilla.org/en-US/docs/Web/Apps/Progressive/Loading
+        var imagesToLoad = document.querySelectorAll('img[data-src]');
+        var loadImages = function (image) {
+            image.setAttribute('src', image.getAttribute('data-src'));
+            image.onload = function () {
+                image.removeAttribute('data-src');
+            };
         };
-    };
 
-    if ('IntersectionObserver' in window) {
-        var observer = new IntersectionObserver(function (items, observer) {
-            items.forEach(function (item) {
-                if (item.isIntersecting) {
-                    loadImages(item.target);
-                    observer.unobserve(item.target);
-                }
+        if ('IntersectionObserver' in window) {
+            var observer = new IntersectionObserver(function (items, observer) {
+                items.forEach(function (item) {
+                    if (item.isIntersecting) {
+                        loadImages(item.target);
+                        observer.unobserve(item.target);
+                    }
+                });
             });
-        });
-        imagesToLoad.forEach(function (img) {
-            observer.observe(img);
-        });
-    } else {
-        imagesToLoad.forEach(function (img) {
-            loadImages(img);
-        });
-    }
+            imagesToLoad.forEach(function (img) {
+                observer.observe(img);
+            });
+        } else {
+            imagesToLoad.forEach(function (img) {
+                loadImages(img);
+            });
+        };
 
+        // Listen to the user going back in history
+        window.onpopstate = function() {
+            setupFilterStates();
+        };
+    }
 
     // utils functions
     function evaluateFilters(category) {
@@ -92,12 +99,12 @@ $(document).ready(function () {
                 inclusives.push(`:not(.${el.id})`);
             }
         });
-        
+
         // add astericks to filter title to show that at least one of the filter is on
         const categoryTitle = $(`#${category}`);
         const categoryText = categoryTitle.html();
         if (inclusives.length && inclusives.length < $subchoices.length) {
-            categoryTitle.html(function(){ return categoryText.includes('*') ? categoryText : categoryText.replace('<span', '*<span')});
+            categoryTitle.html(function () { return categoryText.includes('*') ? categoryText : categoryText.replace('<span', '*<span') });
         } else {
             categoryTitle.html(categoryText.replace('*', ''));
         }
@@ -117,4 +124,12 @@ $(document).ready(function () {
             filter: newFilterValue
         });
     };
+
+    function setupFilterStates() {
+        const stateFilters = history.state.filters;
+        $choices.each(function (i, el) {
+            $(el).prop('checked', stateFilters[el.name][el.id].checked);
+        });
+        updateGallery();
+    }
 });
