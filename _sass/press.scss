@@ -1,0 +1,34 @@
+.press__section {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.press__section:first-of-type {
+    display: none;
+}
+
+.press__year {
+    width: calc(var(--grid-column-unit) * 4);
+    margin-right: calc(var(--grid-column-unit) + var(--grid-gap) * 2);
+}
+
+.press__links {
+    width: 100%;
+}
+
+.press__container h2 {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+}
+
+.press__container a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 0 0.4rem;
+}
+
+.press__year h3 {
+    margin: 0;
+    padding-top: 1.4rem;
+    border-top: 2px solid var(--color-dark);
+}

@@ -2,5 +2,28 @@
 title: Press
 ---
 <main>
-    <h1>Press</h1>
+    <div class="press__container">
+        <div class="press__section">
+            <div class="press__year">
+                <h2>Year</h2>
+            </div>
+            <div class="press__links">
+                <h2>Link</h2>
+            </div>
+        </div>
+        {% assign linksArray = site.data.press.links | group_by: "year" | sort: "name" | reverse %}
+        {% for link in linksArray %}
+        <div class="press__section">
+            <div class="press__year">
+                <h3>{{ link.name }}</h3>
+            </div>
+            <div class="press__links">
+            {% assign links = link.items | sort: "link" %}
+            {% for item in links %}
+                <a href="{{ item.link }}" target="_blank">{{ item.link }}</a>
+            {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </main>

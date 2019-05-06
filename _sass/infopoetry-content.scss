@@ -1,3 +1,7 @@
+nav.nav__infopoetry {
+    position: fixed;
+}
+
 .content {
     width: calc(var(--grid-column-unit) * 6 + var(--grid-gap) * 5);
     height: var(--viewport-height);

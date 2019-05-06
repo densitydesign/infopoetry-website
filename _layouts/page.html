@@ -2,7 +2,15 @@
 layout: default
 ---
 <nav>
-    <div class="nav__left">
+    <!-- <div class="nav__left"> -->
+    <a href="{% case page.title %}
+    {% when 'Home' %}
+    /about
+    {% when 'About' %}
+    /press
+    {% else %}
+    /
+    {% endcase %}" class="nav__left">
         <p class="nav__arrow">&#8592;</p>
         <p class="nav__title">
             {% case page.title %}
@@ -14,8 +22,17 @@ layout: default
             Home
             {% endcase %}
         </p>
-    </div>
-    <div class="nav__right">
+    </a>
+    <!-- </div> -->
+    <!-- <div class="nav__right"> -->
+    <a href="{% case page.title %}
+    {% when 'Home' %}
+    /press
+    {% when 'About' %}
+    /
+    {% else %}
+    /about
+    {% endcase %}" class="nav__right">
         <p class="nav__arrow">&#8594;</p>
         <p class="nav__title">
             {% case page.title %}
@@ -27,7 +44,8 @@ layout: default
             About
             {% endcase %}
         </p>
-    </div>
+    </a>
+    <!-- </div> -->
 </nav>
 <aside style="left: -96vw;"></aside>
 <aside style="left: 100vw;"></aside>

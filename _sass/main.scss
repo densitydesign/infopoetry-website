@@ -8,6 +8,7 @@ html {
     --color-dark: #000000;
     --color-light: #ffffff;
     font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
     --font-bold: 700;
     color: var(--color-dark);
 }
@@ -24,23 +25,42 @@ nav {
     left: calc(100vw * 0.02);
     display: flex;
     justify-content: space-between;
+    z-index: 2;
 }
 
 nav div {
     cursor: pointer;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+.nav__right {
+    display: flex;
+}
+
 nav p {
     margin: 0;
 }
 
-.nav__title {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
+.nav__left p,
+.nav__right p {
+    display: inline;
+}
+
+.nav__right .nav__title {
+    order: 0;
+}
+
+.nav__right .nav__arrow {
+    order: 1;
+    padding-left: 0.4rem;
 }
 
 main {
-    margin-bottom: 2rem;
+    width: calc(var(--width) - var(--grid-column-unit) * 2 - var(--grid-gap) * 2);
+    margin: 4rem auto 6vmin;
 }
 
 a {
