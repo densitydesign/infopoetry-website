@@ -1,5 +1,5 @@
 .media {
-    width: calc(var(--grid-column-unit) * 5.5 + var(--grid-gap) * 5);
+    width: calc(var(--grid-column-unit) * 10 + var(--grid-gap) * 9);
 }
 
 .media img,
@@ -10,7 +10,7 @@
 }
 
 .media__info {
-    width: calc(var(--grid-column-unit) * 4 + var(--grid-gap) * 4);
+    width: calc(var(--grid-column-unit) * 10 + var(--grid-gap) * 9);
 }
 
 .media p {

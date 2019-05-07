@@ -3,6 +3,8 @@
 main {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 @import "infopoetry-content";
-@import "infopoetry-media";
+@import "infopoetry-visual";
+@import "media-infopoetry";
