@@ -1,0 +1,89 @@
+body, html{
+	font-family: 'Sanchez', serif;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+#nomesci {
+padding-top: 20px;
+}
+#left {
+    width: calc(100% - 404px);
+    height: 100vh;
+    background: green;
+    float: left;
+	background: -webkit-gradient(linear, top left, bottom left, from(#346ada), to(#66d2ff));
+	background: -webkit-linear-gradient(#346ada, #66d2ff);
+	background: linear-gradient(#346ada,#66d2ff);
+}
+
+.colonna{
+	width: 100%;
+	max-width: 400px;
+	height: 100vh;
+	background-color: #f8f8f8;
+	float: right;
+	border-left: solid 4px #333;
+}
+.colonna-inner {
+padding: 2em;
+flex-wrap: wrap;
+align-content: space-between;
+}
+
+#nomecom, #nomesci, #why {
+color: #009EFF;
+}
+#nomecom, #nomesci{
+	font-weight: bold;
+}
+.cause-div {
+	height: 200px;
+	overflow: scroll;
+}
+
+.pallonzo{
+	width: 25px;
+	padding-top: 10px;
+	margin-bottom: -8px;
+	padding-right: 7px;
+}
+#more {
+	color: #ffffff;
+	background-color: #009EFF;
+	border: none;
+	border-radius: 2px;
+	padding: 20px;
+	width: auto;
+	text-transform: uppercase;
+	display: inline-block;
+	letter-spacing: 2px;
+	font-family: 'Montserrat';
+	margin-top: 1.3em;
+
+}
+#animal-img{
+	border-radius: 100%;
+	border:solid 4px #333;
+	font-size: 0.5em;
+	color: #333;
+	background-color: #9F9F9F;
+}
+
+.source-data{
+	font-size: 0.75em;
+	bottom: 0px;
+	position: absolute;
+	padding-right: 1.3em;
+	padding-bottom: 2em;
+
+}
+.source-data a{
+	color: #333;
+	font-weight: bold;
+
+}

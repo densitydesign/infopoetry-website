@@ -1,0 +1,859 @@
+.comp0fadein{
+    opacity: 0;
+    animation-delay: 0.15s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+
+.comp1fadein{
+    opacity: 0;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+.comp2fadein{
+    opacity: 0;
+    animation-delay: 7.4s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+
+
+
+.comp3fadein{
+    opacity: 0;
+    animation-delay: 10s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+.introfadeout{
+    animation-delay: 13.5s, 1.1s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: fadeout;
+     
+}
+
+.navbarfadein{
+    opacity: 0;
+    animation-delay: 14.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein;
+}
+
+
+/* CityComparison_ordine_timeline_inverso */
+
+.fadeinTetovo{
+    opacity: 0;
+    animation-name: lastcityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.09s;
+    
+}
+.fadeinSkopje{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.07s;
+    
+}
+.fadeinNaples{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.06s;
+    
+}
+.fadeinMonaco{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.05s;
+    
+}
+.fadeinTirana{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.04s;
+    
+}
+.fadeinTurin{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.03s;
+    
+}
+.fadeinBrescia{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.02s;
+    
+}
+.fadeinKiev{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22.01s;
+    
+}
+.fadeinBucharest{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 22s;
+    
+}
+.fadeinSarajevo{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.99s;
+    
+}
+.fadeinBarcelona{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.98s;
+    
+}
+.fadeinCrakow{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.97s;
+    
+}
+.fadeinParis{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.96s;
+    
+}
+.fadeinAthens{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.95s;
+    
+}
+.fadeinVarna{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.94s;
+    
+}
+.fadeinRome{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.93s;
+    
+}
+.fadeinBitola{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.92s;
+    
+}
+.fadeinAntwerp{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.91s;
+    
+}
+.fadeinBrussels{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.9s;
+    
+}
+.fadeinChisinau{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.88s;
+    
+}
+.fadeinMilan{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.86s;
+    
+}
+.fadeinPlovdiv{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.84s;
+    
+}
+.fadeinThessaloniki{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.82s;
+    
+}
+.fadeinMarseille{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.8s;
+    
+}
+.fadeinIasi{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.75s;
+    
+}
+.fadeinSofia{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.7s;
+    
+}
+.fadeinWroclaw{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.65s;
+    
+}
+.fadeinTimisoara{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.6s;
+    
+}
+.fadeinBelgrade{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.55s;
+    
+}
+.fadeinLondon{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.5s;
+    
+}
+.fadeinLviv{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.4s;
+    
+}
+.fadeinMadrid{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.3s;
+    
+}
+.fadeinToulouse{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.2s;
+    
+}
+.fadeinBudapest{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21.1s;
+    
+}
+.fadeinManchester{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 21s;
+    
+}
+.fadeinMannheim{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.9s;
+    
+}
+.fadeinBologna{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.8s;
+    
+}
+.fadeinBanjaLuka{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.7s;
+    
+}
+.fadeinGent{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.6s;
+    
+}
+.fadeinTrieste{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.5s;
+    
+}
+.fadeinWarsaw{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.4s;
+    
+}
+.fadeinFlorence{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.3s;
+    
+}
+.fadeinBrno{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 18s;
+    
+}
+.fadeinPoznan{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 19.9s;
+    
+}
+.fadeinLyon{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 17s;
+    
+}
+.fadeinPatras{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 19.3s;
+    
+}
+.fadeinMinsk{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 19s;
+    
+}
+.fadeinValencia{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 18.5s;
+    
+}
+.fadeinBirmingham{
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 20.2s;
+    
+}
+.fadeinBerlin {
+    opacity: 0;
+    animation-name: cityFadeIn;
+    animation-duration: 0.001s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 19.6s;
+    
+}
+
+
+
+/*cityComparison_END*/
+
+.footerfadein{
+    opacity: 0;
+    animation-name: fadein;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+    animation-delay: 23.5s;
+}
+
+
+.footerlift{
+    pointer-events: none;
+    animation-name: gitup;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    
+    animation-delay: 23.5s;
+}
+
+
+
+.hide{
+   display: none;
+   opacity: 0;
+}
+
+.fadeinNation{
+    display: block;
+    animation-delay: 2.5s;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+
+
+.fadein{
+    display: block;
+    animation-delay: 0.8s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+
+.ifadein{
+    opacity: 0;
+    animation-delay: 1.25s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+.fadeinaudiomenu{
+    opacity: 0;
+    animation-delay: 0.25s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+
+
+.labelfadein{
+    opacity: 0;
+    animation-delay: 0.25s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadein; 
+    
+}
+
+.ifadeout{
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadeout;
+     
+}
+
+
+.fadeout{
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadeout;
+     
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    height: auto;
+    width:100%;
+
+}
+
+.footerbox{
+    
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    margin: 0 auto;
+    width: 9.5%;
+    background-color: rgba(0,0,0,0.4)
+    
+    
+}
+
+.fadeoutInfo{
+    pointer-events: none;
+    animation: fadeoutInfo 1s, scale1Info 0.8s, scale2Info 0.8s; 
+    animation-fill-mode: forwards;
+   transform-origin: center bottom;
+}
+
+.fadeoutmenu{
+    pointer-events: none;
+    animation-delay: 10s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: fadeout;
+}
+
+
+.fadeoutaudiomenu{
+    pointer-events: none;
+    animation-delay: 6s;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-name: fadeout;
+}
+
+
+.linkout{
+    display: none;
+}
+
+
+.outInfoStart{
+    pointer-events: none;
+    opacity: 0;
+}
+
+.disabledaudiomenu{
+    pointer-events: none;
+}
+
+.off{
+    opacity: 0;
+}
+
+
+.breathcolor1{
+    animation: pulse1 5.22s infinite ease-in-out;
+}
+
+
+.breathcolor2{
+    animation: pulse2 3.525s infinite ease-in-out;
+}
+
+
+.breathcolor3{
+    animation: pulse3 3.0518s infinite ease-in-out;
+}
+
+.breathcolor4{
+    animation: pulse4 2.897s infinite ease-in-out;
+}
+
+
+
+
+
+@keyframes pulse1{
+   0%{
+    fill: #474556;   
+    }   
+  35%{
+    fill: #656372;
+  }
+  47%{
+    fill: #474556; 
+    }
+}
+
+
+
+@keyframes pulse2{
+   0%{
+    fill: #474556;   
+    }   
+  30%{
+    fill: #4e4c5c;
+  }
+  47%{
+    fill: #474556; 
+    }
+}
+
+
+
+@keyframes pulse3{
+   0%{
+    fill: #474556;   
+    }   
+  38%{
+    fill: #544d5b;
+  }
+  47%{
+    fill: #474556; 
+    }
+}
+
+@keyframes pulse4{
+   0%{
+    fill: #474556;   
+    }   
+  40%{
+    fill: #544d5b;
+  }
+  47%{
+    fill: #474556; 
+    }
+  55%{
+     fill: #696272;   
+    }
+}
+
+
+
+
+
+
+@keyframes fadeoutInfo {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+
+@keyframes fadein {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes fadeout {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+@keyframes cityFadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes lastcityFadeIn {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes gitup{
+    from{transform: translateY(100%);}
+    to{height: translateY(0);}
+}
+
+
+
+
+
+
+#infoLabel{
+    
+}
+
+
+#Italy4.hover #italylabel{
+    display: block;
+    animation-delay: 0.5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-name: fadein;
+}
+
+
+#cerchietto {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    pointer-events:all;
+}
+
+#cerchietto:hover{
+    fill: rgba(255,255,255,0.2);
+}
+
+
+
+#link1 {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    pointer-events:all;
+}
+
+#link1:hover{
+    fill: rgba(255,255,255,0.2);
+}
+
+
+
+#link2 {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    pointer-events:all;
+}
+
+#link2:hover{
+    fill: rgba(255,255,255,0.2);
+}
+
+
+
+#link3 {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    pointer-events:all;
+}
+
+#link3:hover{
+    fill: rgba(255,255,255,0.2);
+}
+
+
+
+
+
+body { 
+    margin:0; padding:0;
+}
+html{
+    background-color: #262626;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Infopoetry</title>
+	<meta name="author" content="Erika Inzitari" />
+	<meta name="description" content="Recently extinct animals for human causes." />
+	<meta name="keywords"  content="list of animals extinct for human causes" />
+	<link href="https://fonts.googleapis.com/css?family=Sanchez|Montserrat" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" href="https://unpkg.com/simplebar@2.0.3/umd/simplebar.css" />
+
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.3/fabric.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.3/lodash.min.js"></script>
+	<script src="https://unpkg.com/simplebar@2.0.3/umd/simplebar.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+</head>
+
+
+<body>
+
+	<div id="left">
+        <canvas id='c'></canvas>    
+    </div>
+
+	<div class="colonna">
+		<div class="colonna-inner">
+			<div class="primo" style="display: block;">
+				<h1>Recently extinct animals for human causes.</h1>
+				<p>355 species became extinct because of the influence of Mankind.<br>By class there were:</p>
+<p><img class="pallonzo" src="img/1.png" />150 Aves<br>
+<img class="pallonzo" src="img/2.png" />56 Gastropoda<br>
+<img class="pallonzo" src="img/3.png" />55 Mammalia<br>
+<img class="pallonzo" src="img/4.png" />36 Actinopterygii<br>
+<img class="pallonzo" src="img/5.png" />13 Amphibia<br>
+<img class="pallonzo" src="img/6.png" />12 Reptilia<br>
+<img class="pallonzo" src="img/7.png" />9 Arachnida<br>
+<img class="pallonzo" src="img/8.png" />8 Insecta<br>
+<img class="pallonzo" src="img/9.png" />5 Malacostraca<br>
+<img class="pallonzo" src="img/10.png" />4 Bivalvia<br>
+<img class="pallonzo" src="img/11.png" />3 Diplopoda<br>
+<img class="pallonzo" src="img/12.png" />1 Enopla
+</p>
+			</div>
+			<div id="disappear" style="display: none;">
+			<div align="center">
+					<a target="_blank" href=""><img width="200px" id="animal-img" src="img/animals/images/undefined.png" /> <br><span style="color: #A0A0A0; font-size: 0.8em;">image source</span></a>
+				</div>
+				<p id="par">
+					<span id="nomesci">Macrolepis</span> became extinct in <span id="anno">2006</span>.
+
+					<br><br>
+
+					They were 
+
+					<span id="nomecom">Mangareva Reed-warbler</span>
+
+					from the class of
+
+					<span id="classe">Diplopoda</span>.<br><br>	
+
+					<span id="why">Why?</span>
+
+					<br>
+				</p>
+				<div class="cause-div" data-simplebar>
+					<span id="cause"></span>
+				</div>
+				<div align="center">
+					<a target="_blank" href="" id="more">Tell me more</a>
+				</div>
+			</div>
+
+			<br>
+			<div class="source-data">
+				<div align="center">
+					<p>Infopoetry by <a target="_blank" href="http://www.erikari.it">Erika Inzitari</a>.<br> Course module by Salvatore Zingale at Politecnico di Milano.</p>
+				</div>
+				<div style="width: 79%; float: left;">
+					<p> Data provided by <a target="_blank" href="http://www.iucnredlist.org">The IUCN Red List of Threatened Species. Version 2016-3.</a> <www.iucnredlist.org> Downloaded on 19 January 2017. </p>
+				</div>
+				<div style="width: 20%; float: right;">
+					<a target="_blank" href="http://www.iucnredlist.org"><img width="100%" src="img/IUCN_Red_List.svg" /></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+<script src="scripts/sprite.class.js"></script>
+<script src="scripts/script.js"></script>
+
+</html>

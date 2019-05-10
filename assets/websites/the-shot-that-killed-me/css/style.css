@@ -1,0 +1,44 @@
+html body {
+    font-family: 'Inconsolata';
+    background-color: black;
+    color: white;
+}
+
+.didascalia {
+    margin-bottom: -1%;
+}
+
+.didascalia h1 {
+    font-size: 15px;
+    text-decoration: underline;
+    padding-left: 1%;
+}
+
+.didascalia p {
+    font-size: 13px;
+    padding-left: 1%;
+}
+
+.container-fluid {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.modal{
+    padding-top: 7%; 
+}
+
+figure {
+    cursor: pointer;
+}
+
+.modal-body img {
+    max-width: 100%;
+}
+
+#button-click:focus, #button-click:active, #button-click:focus:active {
+  background-image: none !important;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
