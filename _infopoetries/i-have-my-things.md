@@ -1,5 +1,5 @@
 ---
-title: I have My Things
+title: I Have My Things
 subtitle: 'Essential glossary in eight [not so] small volumes'
 author:
   name: Lucia Di Terlizzi
