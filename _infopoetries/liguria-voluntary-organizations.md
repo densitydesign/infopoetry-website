@@ -1,7 +1,7 @@
 ---
 title: Liguria Voluntary Organizations
 author:
-  name: Boscagli Alberto
+  name: Alberto Boscagli
 year: 2013-2014
 topic: Society
 medium: Poster
