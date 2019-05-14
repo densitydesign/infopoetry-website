@@ -45,7 +45,7 @@ title: Home
     </div>
     <div class="infopoetries">
         {% assign infopoetries = site.infopoetries | sort: "year" | reverse %}
-        {% for infopoetry in site.infopoetries %}
+        {% for infopoetry in infopoetries %}
         <a href="{{ infopoetry.title | escape | replace: '&#39;', '' | slugify: 'latin' | append: '.html' | prepend: 'infopoetries/' }}" class="infopoetry {{ infopoetry.topic | slugify: 'latin' }} {{ infopoetry.medium | slugify: 'latin' }} {{ infopoetry.year | slugify: 'latin' | prepend: 'aa' }} {{ infopoetry.institute | slugify: 'latin' }}" data-year="{{ infopoetry.year | slice: -4, 4 }}">
             <img src="{{ '/assets/images/placeholder.jpg' | relative_url }}" data-src="{{ infopoetry.featured | relative_url }}" alt="Feature image for the project {{ infopoetry.title }}">
             <div class="infopoetry__content">
