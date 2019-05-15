@@ -36,3 +36,8 @@ header p::after {
     width: calc(var(--grid-column-unit) * 5);
     border-bottom: 2px solid var(--color-dark);
 }
+
+#my-canvas {
+  grid-row: 1/ -1;
+  grid-column: 7 / -1;
+}
