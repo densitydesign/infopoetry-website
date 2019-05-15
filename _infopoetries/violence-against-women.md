@@ -9,6 +9,6 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/Infopoesia_Mennuni.png
 images: []
-source: {}
+
 ---
 The poster shows stats about violence against women and their torturer.

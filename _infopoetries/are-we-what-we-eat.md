@@ -15,7 +15,7 @@ images:
   - /assets/images/uploads/Giarasoli_Maria_Alma_3.JPG
   - /assets/images/uploads/Giarasoli_Maria_Alma_6.JPG
   - /assets/images/uploads/Giarasoli_Maria_Alma_5.JPG
-source: {}
+
 ---
 The contemporary world is experiencing a major
 food emergency. The food we choose to eat, its production

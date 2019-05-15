@@ -11,7 +11,7 @@ institute: Politecnico di Milano
 featured: /assets/images/uploads/Elmi_Zara_2.jpg
 images:
   - /assets/images/uploads/Elmi_Zara_1.jpg
-source: {}
+
 ---
 My concept is an installation piece designed to interact with the general public. I placed multiple
 transparent stickers of eyes with accompanying statistics about the surveillance of the general public

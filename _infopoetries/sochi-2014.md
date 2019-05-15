@@ -10,6 +10,6 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Pirotta.png
 images: []
-source: {}
+
 ---
 The poster shows the medal board of Sochi 2014 Olympic Games.
