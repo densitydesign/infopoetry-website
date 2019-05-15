@@ -13,6 +13,6 @@ images:
   - /assets/images/uploads/Marchetti_Niccolò_1.jpeg
   - /assets/images/uploads/Marchetti_Niccolò_3.jpeg
   - /assets/images/uploads/Marchetti_Niccolò_2.jpeg
-source: {}
+
 ---
 Have you ever wondered how a beggar becomes one? Half of the times, it's because they have been abandoned by their partner. 

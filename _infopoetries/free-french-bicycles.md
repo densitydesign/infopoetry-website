@@ -9,6 +9,6 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Casadio.png
 images: []
-source: {}
+
 ---
 Visualitation about availability of bycicles in the main cities of France.

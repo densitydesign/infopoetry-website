@@ -13,6 +13,6 @@ images:
   - /assets/images/uploads/Quiroga_Valeria_01.jpg
   - /assets/images/uploads/Quiroga_Valeria_06.jpg
   - /assets/images/uploads/Quiroga_Valeria_08.jpg
-source: {}
+
 ---
 Only 10% of the planet's territory hosts more than 70% of biodiversity. Colombia occupies the first positions in different species and reminds us what apparently the contemporary man has forgotten: The universal meaning of Biodiversity.
