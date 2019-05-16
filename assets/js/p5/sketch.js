@@ -73,8 +73,8 @@ p.draw = function(){
   p.stroke(0,0,0);
   p.strokeWeight(2);
   p.noFill();
-  p.rotateY(angle+p.mouseX/100);
-  p.rotateX(p.mouseY/100);
+  p.rotateY(angle+p.mouseX/200);
+  p.rotateX(p.mouseY/200);
   p.box(250);
   angle += 0.005;
   p.pop();
