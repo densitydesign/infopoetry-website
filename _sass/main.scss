@@ -59,7 +59,7 @@ nav p {
 }
 
 main {
-    width: calc(var(--width) - var(--grid-column-unit) * 2 - var(--grid-gap) * 2);
+    width: calc(var(--width) - var(--grid-gap) * 2);
     margin: 4rem auto 6vmin;
 }
 
