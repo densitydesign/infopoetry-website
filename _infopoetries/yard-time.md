@@ -9,10 +9,10 @@ interactive: false
 material: 'Plastic, Wood'
 size: 330 x 240 cm
 institute: Politecnico di Milano
-featured: /assets/images/uploads/12.jpg
+featured: /assets/images/uploads/06.jpg
 images:
   - /assets/images/uploads/08.jpg
-  - /assets/images/uploads/06.jpg
+  - /assets/images/uploads/Banal_Matteo_11.jpg
   - /assets/images/uploads/05.jpg
 source:
   name: XIV rapporto sulle condizioni di detenzione dell'Associazione Antigone
