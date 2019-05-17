@@ -22,6 +22,8 @@ collections:
             fields:
               - {label: "Link", name: "link", widget: "string"}
               - {label: "Year", name: "year", hint: "format must be YYYY, e.g. 2019", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Venue", name: "venue", widget: "string"}
 
   - label: "Topics"
     name: "topics"
