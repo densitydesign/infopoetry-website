@@ -9,6 +9,7 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/Infopoesia_Cedone_The decrease of marriages.png
 images: []
+video: /assets/images/uploads/Infopoesia_Cedone_The decrease of marriages.mp4
 source: {}
 ---
 Data regarding Marriages and divorces in Italy from 1971 to 2010.
