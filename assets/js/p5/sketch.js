@@ -1,13 +1,10 @@
 let angle = 0;
 let angle2= 15; //rotazione quadrato
-
-var radius = 80;
 var x_off = 1000 ;
 var y_off = 1000;
 var z_off = 1000;
-var vertices_amount = 120;
-var px_offset = 160;    // quanto blobba
-var NOISE_SCALE = 300;  // effetto smooth
+var vertices_amount = 150;
+var NOISE_SCALE = 350;  // effetto smooth
 
 var Z_SPEED = .01; // noise change per frame
 
@@ -46,7 +43,9 @@ p.draw = function(){
 
 
 
-
+  let w = p.windowWidth;
+  var radius = w/16; // raggio del blob
+  var px_offset = w/9;    // quanto blobba
   var blob =  p.beginShape();//il blob con 120 vertici
   for (var a=0; a<p.TWO_PI;a+=p.TWO_PI/vertices_amount) {
 
@@ -75,7 +74,7 @@ p.draw = function(){
   p.noFill();
   p.rotateY(angle+p.mouseX/200);
   p.rotateX(p.mouseY/200);
-  p.box(250);
+  p.box(w/5);
   angle += 0.005;
   p.pop();
   }

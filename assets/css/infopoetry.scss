@@ -1,6 +1,7 @@
 ---
 ---
 main {
+    width: calc(var(--width) - var(--grid-gap) * 2);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
