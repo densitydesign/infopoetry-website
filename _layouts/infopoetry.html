@@ -65,7 +65,8 @@ layout: default
             <p class="info__title"><strong>Intended Meaning:</strong></p>
             <p><i>{{ page.meaning }}</i></p>
             {% endif %}
-            {% if page.source %}
+            {% assign sourceLength = page.source | size %}
+            {% if page.source and sourceLength != 0 %}
             <p class="info__title"><strong>Source:</strong></p>
             {% if page.source.link %}
             <a href="{{ page.source.link }}" target="_blank"><i>{{ page.source.name }}</i></a>
