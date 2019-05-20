@@ -10,6 +10,5 @@ institute: Politecnico di Milano
 featured: /assets/images/uploads/Infopoesia_Toffetti_Stalkers.png
 images: []
 video: /assets/images/uploads/Infopoesia_Toffetti_Stalkers.mp4
-source: {}
 ---
 'Stalkers' is an infopoetry by Laura Toffetti.

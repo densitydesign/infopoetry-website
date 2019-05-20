@@ -14,7 +14,6 @@ images:
   - /assets/images/uploads/Costagliola-7.JPG
   - /assets/images/uploads/Costagliola-4.JPG
   - /assets/images/uploads/Costagliola-2.JPG
-source: {}
 ---
 The InfoPoetry realized is based on the dataset containing the average level of literacy of each country. We chose to represent the data through a book, so as to create a unique artifact symbol that unites the identity of each country.
 It is divided into 5 chapters, one for each continent and each page represents a single country. The single page contains an excerpt from the main literary work of the most representative writer of the nation.

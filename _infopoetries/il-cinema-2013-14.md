@@ -14,6 +14,5 @@ images:
   - /assets/images/uploads/Tribuzio-2.png
   - /assets/images/uploads/Tribuzio-3.png
   - /assets/images/uploads/Tribuzio-4.png
-source: {}
 ---
 In recent years, the cinema has undergone significant changes in several respects. I was curious to discover the price trend and consequently the trend of the turnout, knowing the current economic situation.

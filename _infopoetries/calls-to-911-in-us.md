@@ -11,6 +11,5 @@ institute: Politecnico di Milano
 featured: /assets/images/uploads/PINCINI-INFOPOESIA-calls to 911.png
 images: []
 video: /assets/images/uploads/PINCINI-INFOPOESIA-calls to 911.mp4
-source: {}
 ---
 What types of medical emergencies do Americans call 911 for? Rank these types of calls, highlighting the weight of each in the total number.

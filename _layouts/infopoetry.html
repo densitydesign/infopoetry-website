@@ -34,16 +34,24 @@ layout: default
             <a href="{% if checkLink == 'http' %}{{ page.website }}{% else %}{{ page.website | prepend: 'assets/websites/' | relative_url }}{% endif %}"
                 target="_blank"><strong>Link to website</strong></a>
             {% endif %}
+            {% if page.video %}
+            {% assign checkVideoLink = page.video | slice: 0, 4 %}
+            {% if checkVideoLink == 'http' %}
+            <a href="{{ page.video }}" target="_blank"><strong>Link to video</strong></a>
+            {% endif %}
+            {% endif %}
         </div>
     </div>
     <div class="media">
         <img src="{{ page.featured }}" alt="Featured image of the project {{ page.title }}">
         {% if page.video %}
+        {% if checkVideoLink != 'http' %}
         <video controls>
             <source src="{{ page.video }}" type="video/mp4">
             <p>Your browser doesn't support HTML5 video. Here is a <a href="{{ page.video }}">link to the video</a>
                 instead.</p>
         </video>
+        {% endif %}
         {% endif %}
         {% for image in page.images %}
         <img src="{{ image }}" alt="Complementary image of the project {{ page.title }}">

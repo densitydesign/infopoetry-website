@@ -11,7 +11,6 @@ featured: /assets/images/uploads/Alessandra-DelNero-1.jpg
 images:
   - /assets/images/uploads/Alessandra-DelNero-2.jpg
   - /assets/images/uploads/Alessandra-DelNero-3.jpg
-source: {}
 ---
 The artifact produced is a visualization of the poetry of
 Sylvia Plath. 

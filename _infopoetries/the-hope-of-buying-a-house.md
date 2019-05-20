@@ -10,6 +10,5 @@ institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Xieziqiao.png
 images: []
 video: /assets/images/uploads/infopoesia_Xieziqiao.mp4
-source: {}
 ---
 'The hope of buying a house' is an infopoetry by Ziqiao Xie.

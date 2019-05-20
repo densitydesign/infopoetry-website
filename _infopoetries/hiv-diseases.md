@@ -10,6 +10,5 @@ institute: Politecnico di Milano
 featured: /assets/images/uploads/Infopoesia_PiccoliTrapletti_HIV.png
 images: []
 video: /assets/images/uploads/Infopoesia_PiccoliTrapletti_HIV.mp4
-source: {}
 ---
 This video shows the number of people living with HIV in Italy, 1982-2014.

@@ -15,6 +15,5 @@ images:
   - /assets/images/uploads/Cosma-4.jpg
   - /assets/images/uploads/Cosma-5.jpg
 video: ''
-source: {}
 ---
 'La lettura di libri in Italia' is an infopoetry by Lucia Cosma.

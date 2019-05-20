@@ -9,6 +9,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Ponzetta_Sport-1.jpg
 images: []
-source: {}
 ---
 'The Italians and the sports' is an infopoetry by Giulia Ponzetta.

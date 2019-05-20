@@ -9,6 +9,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/Catanese_814626.png
 images: []
-source: {}
 ---
 Most-played word in songs is an infopoetry by Roberto Catanese

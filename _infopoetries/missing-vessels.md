@@ -14,6 +14,5 @@ images:
   - /assets/images/uploads/Rabuffetti-3.png
   - /assets/images/uploads/Rabuffetti-4.png
   - /assets/images/uploads/Rabuffetti-5.png
-source: {}
 ---
 An artistic data visualization on the ships that went missing in the Bermuda triangle.
