@@ -14,7 +14,7 @@ layout: default
         <div class="content__header">
             <h1>{{ page.title }}</h1>
             {% if page.author.link %}
-            <h2>By <a href="{{ page.author.link }}" target="_blank">{{ page.author.name }}</a></h2>
+            <h2>By <a href="{{ page.author.link }}" target="_blank" rel="noopener noreferrer">{{ page.author.name }}</a></h2>
             {% else %}
             <h2>By {{ page.author.name }}</h2>
             {% endif %}
@@ -32,12 +32,12 @@ layout: default
             {% if page.website %}
             {% assign checkLink = page.website | slice: 0, 4 %}
             <a href="{% if checkLink == 'http' %}{{ page.website }}{% else %}{{ page.website | prepend: 'assets/websites/' | relative_url }}{% endif %}"
-                target="_blank"><strong>Link to website</strong></a>
+                target="_blank" rel="noopener noreferrer"><strong>Link to website</strong></a>
             {% endif %}
             {% if page.video %}
             {% assign checkVideoLink = page.video | slice: 0, 4 %}
             {% if checkVideoLink == 'http' %}
-            <a href="{{ page.video }}" target="_blank"><strong>Link to video</strong></a>
+            <a href="{{ page.video }}" target="_blank" rel="noopener noreferrer"><strong>Link to video</strong></a>
             {% endif %}
             {% endif %}
         </div>
@@ -69,7 +69,7 @@ layout: default
             {% if page.source and sourceLength != 0 %}
             <p class="info__title"><strong>Source:</strong></p>
             {% if page.source.link %}
-            <a href="{{ page.source.link }}" target="_blank"><i>{{ page.source.name }}</i></a>
+            <a href="{{ page.source.link }}" target="_blank" rel="noopener noreferrer"><i>{{ page.source.name }}</i></a>
             {% else %}
             <p><i>{{ page.source.name }}</i></p>
             {% endif %}

@@ -21,7 +21,7 @@ title: Press
             {% assign links = link.items | sort: "link" %}
             {% for item in links %}
                 <p>
-                    <a href="{{ item.link }}" target="_blank">{{ item.title }}</a> | <strong>{{ item.venue }}</strong>
+                    <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a> | <strong>{{ item.venue }}</strong>
                 </p>
             {% endfor %}
             </div>
