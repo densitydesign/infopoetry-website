@@ -13,6 +13,5 @@ images:
   - /assets/images/uploads/Perico_Jacopo_3.jpg
   - /assets/images/uploads/Perico_Jacopo_4.jpg
   - /assets/images/uploads/Perico_Jacopo_1.jpg
-
 ---
 The project focuses on the number and provenience of selfie-related deaths in the world.

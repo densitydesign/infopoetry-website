@@ -10,7 +10,6 @@ material: 'Cork Board, Push Pins'
 institute: Politecnico di Milano
 featured: /assets/images/uploads/Cosentino_Giulia_1.jpg
 images: []
-
 ---
 How the percentage of obesity is different
 in European countries? and how the difference between

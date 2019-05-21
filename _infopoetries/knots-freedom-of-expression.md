@@ -1,7 +1,8 @@
 ---
-title: Knots-freedom of expression
+title: Knots
+subtitle: Freedom of expression
 author:
-  name: 'Agata Brilli '
+  name: 'Agata Brilli'
 year: 2015-2016
 topic: Human Rights
 medium: Object

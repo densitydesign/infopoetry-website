@@ -11,7 +11,7 @@
 
 .content__header h1 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.3rem;
     margin-bottom: 1.4rem;
 }
 
@@ -22,12 +22,13 @@
 
 .content__description {
     width: calc(var(--grid-column-unit) * 10 + var(--grid-gap) * 9);
+    overflow-y: scroll;
 }
 
 .content__description p {
     font-style: italic;
     font-size: 1.1rem;
-    line-height: 1.3;
+    line-height: 1.45;
 }
 
 .content__description a {

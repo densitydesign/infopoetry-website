@@ -9,19 +9,19 @@
     margin-bottom: calc(var(--grid-gap) * 2);
 }
 
+.media img {
+    cursor: pointer;
+}
+
 .media__info {
     width: calc(var(--grid-column-unit) * 10 + var(--grid-gap) * 9);
 }
 
 .media p {
     margin: 0;
+    line-height: 1.45;
 }
 
 p.info__title {
     margin-top: 1.6rem;
-}
-
-.media i {
-    font-size: 1.1rem;
-    line-height: 1.3;
 }

@@ -14,6 +14,5 @@ images:
   - /assets/images/uploads/Brignoli_Nicola_4.jpg
   - /assets/images/uploads/Brignoli_Nicola_16.jpg
   - /assets/images/uploads/Brignoli_Nicola_3.jpg
-
 ---
 Producers are taking the decision to limit the use of pesticides, but we are picking up a though inherit: water has been permanently polluted. Pesticides are still nebulized in vineyards in Franciacorta, is this really the price we are willing to pay in order to get quality wine?

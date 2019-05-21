@@ -9,6 +9,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/Infopoesia_Boscagli.png
 images: []
-
 ---
 An infographic about the voluntary organizations in Liguria from 1993 to 2012

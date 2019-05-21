@@ -15,6 +15,5 @@ images:
   - /assets/images/uploads/Bierylo_Kacper_3.jpg
   - /assets/images/uploads/Bierylo_Kacper_4.jpg
   - /assets/images/uploads/Bierylo_Kacper_5.jpg
-
 ---
 The installation tells the story of violence against women. Seemingly it is a dress with a floral pattern, but after reading the label, we discover the hidden truth about the scale of domestic violence that affects women in Europe.

@@ -9,6 +9,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Ruocco_Le metro de Paris.png
 images: []
-
 ---
 Annual passengers entrance in the Paris Metro Stations.

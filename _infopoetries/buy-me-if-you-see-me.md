@@ -9,7 +9,6 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/Bufano_Alessandra_1.png
 images: []
-
 ---
 Fashion Luxury. 
 Who really can afford it?

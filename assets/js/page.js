@@ -3,8 +3,20 @@ $(document).ready(function () {
     // console.log(history.state); 
     let $choices;
     let $infopoetriesContainer;
+    let resizeTimer;
+    let viewportWidth = window.innerWidth;
+    const $filters = $('.filter__title');
+
     if (history.state.currentPage === 'Home') {
         setupGallery();
+    }
+
+    // Credits to Chris Coyier https://css-tricks.com/snippets/jquery/done-resizing-event/ 
+    window.onresize = function (e) {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function () {
+            viewportWidth = window.innerWidth;
+        }, 250);
     }
 
     function setupGallery() {
@@ -42,14 +54,21 @@ $(document).ready(function () {
 
 
         // Toggle selection menu filters
-        $('.filter__title').on('click', function (e) {
+        $filters.on('click', function (e) {
             // console.log($(e.currentTarget).children('.filter__choices'));
             e.stopPropagation();
-            $(e.currentTarget).toggleClass('box--open');
-            $(e.currentTarget).next('.filter__choices').toggleClass('box--open');
+            if (viewportWidth > 834) {
+                $(e.currentTarget).toggleClass('box--open');
+                $(e.currentTarget).next('.filter__choices').toggleClass('box--open');
+            } else {
+                $filters.removeClass('box--open');
+                $('.filter__choices').removeClass('box--open');
+                $(e.currentTarget).addClass('box--open');
+                $(e.currentTarget).next('.filter__choices').addClass('box--open');
+            }
         });
         $('body').on('click', function () {
-            $('.filter__title').removeClass('box--open');
+            $filters.removeClass('box--open');
             $('.filter__choices').removeClass('box--open');
         });
         $('.filter__choices').on('click', function (e) {
@@ -85,7 +104,7 @@ $(document).ready(function () {
         };
 
         // Listen to the user going back in history
-        window.onpopstate = function() {
+        window.onpopstate = function () {
             setupFilterStates();
         };
     }

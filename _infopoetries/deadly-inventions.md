@@ -12,6 +12,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Gargano.png
 images: []
-
 ---
 Unfortunate discoveries that brought fame to its inventors and took their lives with them.

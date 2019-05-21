@@ -1,5 +1,6 @@
 ---
-title: 'Presidential tweets:Hillary Clinton vs. Donald Trump'
+title: Presidential tweets
+subtitle: Hillary Clinton vs. Donald Trump
 author:
   name: Nicolò Fabio Banfi
 year: 2016-2017

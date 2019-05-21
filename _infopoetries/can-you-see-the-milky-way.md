@@ -14,6 +14,5 @@ images:
   - /assets/images/uploads/Filippi_Elena_3.jpg
   - /assets/images/uploads/Filippi_Elena_1.jpg
   - null
-
 ---
 One-fifth of the World population has already lost the possibility of seeing the Milky Way. Its image, printed on thermal receipt paper, alterable with light and heat, fade turning black, hiding the stars’ details and describing how this priceless heritage is vanishing from people’s memories. 

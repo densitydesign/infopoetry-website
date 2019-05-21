@@ -4,11 +4,12 @@
     }
     
     header div {
-        grid-column: 2 / span 7;
+        grid-column: 2 / span 8;
     }
     
     header p {
-        font-size: 3.5vmin;
+        font-size: 3.4vmin;
+        line-height: 4.9vmin;
         padding-bottom: 4vw;
     }
 
@@ -127,11 +128,12 @@
     }
     
     header div {
-        grid-column: 2 / span 6;
+        grid-column: 2 / span 5;
     }
     
     header p {
-        font-size: 3.8vmin;
+        font-size: 2.7vmin;
+        line-height: 3.9vmin;
     }
 
     .filter {
@@ -153,16 +155,16 @@
     }
 
     .infopoetry h2 {
-        font-size: 2.3vw;
+        font-size: 2vw;
     }
     
     .infopoetry h3 {
-        font-size: 1.2vw;
+        font-size: 1.1vw;
         margin-bottom: 1rem;
     }
     
     .infopoetry p {
-        font-size: 1.1vw;
+        font-size: 1vw;
     }
 
     .press__links {

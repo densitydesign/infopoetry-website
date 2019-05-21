@@ -12,9 +12,10 @@ layout: default
 <main>
     <div class="content">
         <div class="content__header">
-            <h1>{{ page.title }}</h1>
+            <h1>{{ page.title | replace: 'punctuation', '' }}</h1>
             {% if page.author.link %}
-            <h2>By <a href="{{ page.author.link }}" target="_blank" rel="noopener noreferrer">{{ page.author.name }}</a></h2>
+            <h2>By <a href="{{ page.author.link }}" target="_blank" rel="noopener noreferrer">{{ page.author.name }}</a>
+            </h2>
             {% else %}
             <h2>By {{ page.author.name }}</h2>
             {% endif %}
@@ -59,21 +60,39 @@ layout: default
         <div class="media__info">
             {% if page.metaphor %}
             <p class="info__title"><strong>Metaphor used:</strong></p>
-            <p><i>{{ page.metaphor }}</i></p>
+            <p>{{ page.metaphor }}</p>
             {% endif %}
             {% if page.meaning %}
             <p class="info__title"><strong>Intended Meaning:</strong></p>
-            <p><i>{{ page.meaning }}</i></p>
+            <p>{{ page.meaning }}</p>
             {% endif %}
             {% assign sourceLength = page.source | size %}
             {% if page.source and sourceLength != 0 %}
             <p class="info__title"><strong>Source:</strong></p>
             {% if page.source.link %}
-            <a href="{{ page.source.link }}" target="_blank" rel="noopener noreferrer"><i>{{ page.source.name }}</i></a>
+            <a href="{{ page.source.link }}" target="_blank" rel="noopener noreferrer">{{ page.source.name }}</a>
             {% else %}
-            <p><i>{{ page.source.name }}</i></p>
+            <p>{{ page.source.name }}</p>
             {% endif %}
             {% endif %}
         </div>
+    </div>
+    <div class="modal">
+        <div class="close__container"><span class="close">+</span></div>
+        <div class="modal__image shown">
+            <img src="" data-src="{{ page.featured | replace: '/uploads/', '/original/' }}"
+                alt="Featured image of the project {{ page.title }}">
+        </div>
+        {% assign imagesNumber = page.images | size %}
+        {% if imagesNumber > 0 %}
+        {% for image in page.images %}
+        <div class="modal__image">
+            <img src="" data-src="{{ image | replace: '/uploads/', '/original/' }}"
+                alt="Complementary image of the project {{ page.title }}">
+        </div>
+        {% endfor %}
+        <div class="prev"><span>&#8249;</span></div>
+        <div class="next"><span>&#8250;</span></div>
+        {% endif %}
     </div>
 </main>

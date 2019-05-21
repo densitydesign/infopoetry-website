@@ -9,6 +9,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Romano Federica.png
 images: []
-
 ---
 The poster shows the floating of different kinds of wine in Rome.

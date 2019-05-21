@@ -12,6 +12,5 @@ images:
   - /assets/images/uploads/He_Xue_4.png
   - /assets/images/uploads/He_Xue_5.png
   - /assets/images/uploads/He_Xue_3.png
-
 ---
 Teenagers who are suffering from social media. Use the transparent pictures to show the data teenagers who killed themselves from 1999 to 2005 and the Google Trends data about social media and depression.

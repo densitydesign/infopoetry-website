@@ -15,6 +15,5 @@ images:
   - /assets/images/uploads/Di_Terlizzi_Lucia_5.JPG
   - /assets/images/uploads/Di_Terlizzi_Lucia_6.JPG
 video: ''
-
 ---
 This infopoetry is an exploration of English terms to refer to the menstruation phenomena; the aim is to shed some light on the use of expressions. The reader will appreciate the incredible creativity of the spoken language while reflecting on how a taboo is sometimes hidden in plain sight.

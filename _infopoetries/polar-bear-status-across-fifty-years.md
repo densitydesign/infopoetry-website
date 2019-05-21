@@ -9,6 +9,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_patuzzo.png
 images: []
-
 ---
 Polar bear status across fifty years is an infopoetry by Emilio Patuzzo

@@ -10,6 +10,5 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/infopoesia_Giacalone.png
 images: []
-
 ---
 The Greatest classic Rock albums chart is an infopoetry by Chiara Giacalone.

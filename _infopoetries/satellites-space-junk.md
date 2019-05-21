@@ -1,5 +1,6 @@
 ---
-title: Satellites- Space junk
+title: Satellites
+subtitle: Space junk
 author:
   name: 'Giacomo Ciurlo '
 year: 2015-2016

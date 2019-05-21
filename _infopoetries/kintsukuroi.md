@@ -12,7 +12,6 @@ featured: /assets/images/uploads/Dardani_Chiara_3.jpg
 images:
   - /assets/images/uploads/Dardani_Chiara_1.jpg
   - /assets/images/uploads/Dardani_Chiara_2.jpg
-
 ---
 'Kintsukuroi'  is the Japanese art of repairing broken pottery with golden lacquer.
 In this installation, this is a metaphor for depression and recovering from it.

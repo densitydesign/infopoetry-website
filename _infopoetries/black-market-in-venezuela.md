@@ -11,7 +11,6 @@ institute: Politecnico di Milano
 featured: /assets/images/uploads/Piazza_Marianna_1.jpg
 images:
   - /assets/images/uploads/Piazza_Marianna_2.jpg
-
 ---
 The difficulties faced by Venezuelans in finding basic goods led them to turn to the black market at very high prices.
 This installation compares the number of different types of goods that a person can buy with the same amount of money in a US supermarket and at Venezuelan black market.
