@@ -17,6 +17,11 @@
         width: calc(var(--grid-column-unit) * 3);
     }
 
+    #my-canvas {
+        grid-row: 2 / span 4;
+        grid-column: 5 / -1;
+    }
+
     .filter {
         width: calc(var(--grid-column-unit) * 5 + var(--grid-gap) * 2);
         margin-bottom: 1rem;
@@ -71,7 +76,7 @@
         width: calc(var(--grid-column-unit) * 8 + var(--grid-gap) * 7);
     }
     
-    .press__container a {
+    .press__container p {
         padding: 1.2rem 0;
         border-top: 2px solid var(--color-dark);
     }
@@ -134,6 +139,11 @@
     header p {
         font-size: 2.7vmin;
         line-height: 3.9vmin;
+    }
+
+    #my-canvas {
+        grid-row: 2/ -2;
+        grid-column: 7 / -2;
     }
 
     .filter {
