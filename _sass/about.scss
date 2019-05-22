@@ -1,0 +1,9 @@
+.about__preface {
+    display: flex;
+    margin-top: 6rem;
+    justify-content: space-between;
+}
+
+.preface__column {
+    width: calc(var(--grid-column-unit) * 5 + var(--grid-gap) * 3);
+}
