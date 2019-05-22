@@ -31,13 +31,11 @@ $(document).ready(function () {
                 let $activeImg = $('.modal__image.shown');
                 $('.modal__image').removeClass('shown');
                 $activeImg.next('.modal__image').length > 0 ? $activeImg.next('.modal__image').addClass('shown') : $('.modal__image').first().addClass('shown');
-
             });
             $('.prev span').on('click', function (ev) {
                 let $activeImg = $('.modal__image.shown');
                 $('.modal__image').removeClass('shown');
                 $activeImg.prev('.modal__image').length > 0 ? $activeImg.prev('.modal__image').addClass('shown') : $('.modal__image').last().addClass('shown');
-
             });
         }
     }

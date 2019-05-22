@@ -12,5 +12,6 @@ featured: /assets/images/uploads/Pellegatta_Erica_1_(un)breakable.jpg
 images:
   - /assets/images/uploads/Pellegatta_Erica_2_(un)breakable.jpg
   - /assets/images/uploads/Pellegatta_Erica_3_(un)breakable.jpg
+video: /assets/images/uploads/pellegatta_erica_(un)breakable.mp4
 ---
 Women can harass men in different ways, but it seems that no one talks about it. Why? Men are stereotypically considered strong and unbreakable, just like concrete. (un)breakable tells their stories, by using concrete as a metaphor of the psychological, physical and sexual violence experienced.

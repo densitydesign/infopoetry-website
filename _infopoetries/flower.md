@@ -10,7 +10,6 @@ interactive: true
 institute: Politecnico di Milano
 featured: /assets/images/uploads/screenshot-1.jpg
 images:
-  - /assets/images/uploads/screenshot-1.jpg
   - /assets/images/uploads/screenshot-2.jpg
   - /assets/images/uploads/screenshot-3.jpg
 video: /assets/images/uploads/video.mp4
