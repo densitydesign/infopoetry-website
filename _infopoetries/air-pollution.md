@@ -16,6 +16,11 @@ images:
   - /assets/images/uploads/4.png
 video: /assets/images/uploads/5.mp4
 source:
+  link: 'https://qz.com/794542/air-pollution-map-by-country-fine-particulate-matter/'
   name: World  Health Organization
+metaphor: Sheets of soiled paper covering the names of the countries
+meaning: >-
+  Induce a reflection about the effects of air pollution, the heaviness of the
+  matter and the risk it poses on different countries.
 ---
 Interactive installation meant to inform in a playful way on the levels of fine particulate present in each country's air. It's composed of one big panel treated with thermochromic paint that will hide the information below that will be displayed once the user applies heat on the highlighted surface.
