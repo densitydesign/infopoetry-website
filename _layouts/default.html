@@ -48,47 +48,48 @@
     <script src="{{ '/assets/js/p5/addons/p5.sound.min.js' | relative_url}}" defer></script>
     <script src="{{ '/assets/js/p5/sketch.js' | relative_url}}" defer></script>
     <script defer>
-        let currentState = history.state;
-        if (currentState === null) {
-            let stateObj = {
-                "filters": {
-                    "topic": {
-                        {% for topic in site.topics %}
-            "{{ topic.title | slugify: 'latin' }}": {
-                "name": "{{ topic.title }}",
-                    "checked": false
-            },
-            {% endfor %}
-        },
-        "medium": {
-            {% for medium in site.mediums %}
-            "{{ medium.title | slugify: 'latin' }}": {
-                "name": "{{ medium.title }}",
-                    "checked": false
-            },
-            {% endfor %}
-        },
-        "year": {
-            {% assign years = site.infopoetries | group_by: "year" | sort: "name" %}
-            {% for year in years %}
-            "{{ year.name | slugify: 'latin' | prepend: 'aa' }}": {
-                "name": "{{ year.name }}",
-                    "checked": false
-            },
-            {% endfor %}
-        },
-        "institute": {
-            {% for institute in site.institutes %}
-            "{{ institute.title | slugify: 'latin' }}": {
-                "name": "{{ institute.title }}",
-                    "checked": false
-            },
-            {% endfor %}
-        }
+        let cache = localStorage.getItem('cachedFilters');
+        
+        let initialState = {
+            "filters": {
+                "topic": {
+                    {% for topic in site.topics %}
+                    "{{ topic.title | slugify: 'latin' }}": {
+                        "name": "{{ topic.title }}",
+                        "checked": false
+                    },
+                    {% endfor %}
                 },
-        "currentPage": "{{ page.title }}"
-            };
-        history.pushState(stateObj, null);
+                "medium": {
+                    {% for medium in site.mediums %}
+                    "{{ medium.title | slugify: 'latin' }}": {
+                        "name": "{{ medium.title }}",
+                        "checked": false
+                    },
+                    {% endfor %}
+                },
+                "year": {
+                    {% assign years = site.infopoetries | group_by: "year" | sort: "name" %}
+                    {% for year in years %}
+                    "{{ year.name | slugify: 'latin' | prepend: 'aa' }}": {
+                        "name": "{{ year.name }}",
+                        "checked": false
+                    },
+                    {% endfor %}
+                },
+                "institute": {
+                    {% for institute in site.institutes %}
+                    "{{ institute.title | slugify: 'latin' }}": {
+                        "name": "{{ institute.title }}",
+                        "checked": false
+                    },
+                    {% endfor %}
+                }
+            },
+            "currentPage": "{{ page.title }}"
+        };
+        if (cache === null) {
+            localStorage.setItem('cachedFilters', JSON.stringify(initialState.filters));
         }
     </script>
     <script src="{{ '/assets/js/page.js' | relative_url }}" defer></script>

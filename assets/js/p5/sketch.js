@@ -44,7 +44,7 @@ var my_canvas = function (p) {
 
 
 
-    let w = canvasWidth;
+    let w = Math.min(canvasWidth, canvasHeight);
     var radius = w / 5.4; // raggio del blob
     var px_offset = w / 4.6;    // quanto blobba
     var blob = p.beginShape();//il blob con 120 vertici

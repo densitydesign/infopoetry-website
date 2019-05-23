@@ -1,13 +1,12 @@
 $(document).ready(function () {
     // Initialize filter states
-    // console.log(history.state); 
     let $choices;
     let $infopoetriesContainer;
     let resizeTimer;
     let viewportWidth = window.innerWidth;
     const $filters = $('.filter__title');
 
-    if (history.state.currentPage === 'Home') {
+    if ($filters.length > 0) {
         setupGallery();
     }
 
@@ -44,9 +43,14 @@ $(document).ready(function () {
         $choices.on('change', function (e) {
             // console.log(e.currentTarget.id);
             // update state
-            const newState = history.state;
+            const newState = history.state ? history.state : initialState;
+            const cachedFilters = JSON.parse(localStorage.getItem('cachedFilters'));
+
             newState.filters[e.currentTarget.name][e.currentTarget.id].checked = !newState.filters[e.currentTarget.name][e.currentTarget.id].checked;
+            cachedFilters[e.currentTarget.name][e.currentTarget.id].checked = !cachedFilters[e.currentTarget.name][e.currentTarget.id].checked;
+
             history.pushState(newState, null);
+            localStorage.setItem('cachedFilters', JSON.stringify(cachedFilters));
 
             updateGallery();
 
@@ -145,10 +149,20 @@ $(document).ready(function () {
     };
 
     function setupFilterStates() {
-        const stateFilters = history.state.filters;
+        let cachedFilters = history.state ? history.state.filters : JSON.parse(localStorage.getItem('cachedFilters'));
+        if (history.state) {
+            cachedFilters = history.state.filters;
+            localStorage.setItem('cachedFilters', JSON.stringify(history.state.filters));
+        } else {
+            cachedFilters = JSON.parse(localStorage.getItem('cachedFilters'));
+            let initiateHistory = initialState;
+            initiateHistory.filters = cachedFilters;
+            history.pushState(initiateHistory, null);
+        }
+        
         $choices.each(function (i, el) {
-            $(el).prop('checked', stateFilters[el.name][el.id].checked);
-        });
+            $(el).prop('checked', cachedFilters[el.name][el.id].checked);
+        });   
         updateGallery();
     }
 });
