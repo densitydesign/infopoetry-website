@@ -1,4 +1,20 @@
 $(document).ready(function () {
+    // Check for consent
+    let consentCache = localStorage.getItem('consentCache');
+    const $consent = document.querySelector('.consent');
+    if (consentCache) {
+        $consent.style.display = 'none';
+        if (consentCache == 'true') {
+            gtag('js', new Date());
+            gtag('config', 'UA-5816319-19', { 'anonymize_ip': true });
+        }
+    } else {
+        const $consentButton = $consent.querySelector('.button--accept');
+        const $optoutButton = $consent.querySelector('.button--optout');
+        $consentButton.onclick = handleConsent;
+        $optoutButton.onclick = handleConsent;
+    }
+    
     let viewportWidth = window.innerWidth;
     let resizeTimer;
 
@@ -37,6 +53,16 @@ $(document).ready(function () {
                 $('.modal__image').removeClass('shown');
                 $activeImg.prev('.modal__image').length > 0 ? $activeImg.prev('.modal__image').addClass('shown') : $('.modal__image').last().addClass('shown');
             });
+        }
+    }
+
+    function handleConsent(ev) {
+        let accept = ev.target.classList.contains('button--accept');
+        localStorage.setItem('consentCache', JSON.stringify(accept));
+        $consent.classList.add('closed');
+        if (accept) {
+            gtag('js', new Date());
+            gtag('config', 'UA-5816319-19', { 'anonymize_ip': true });
         }
     }
 

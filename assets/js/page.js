@@ -1,4 +1,20 @@
 $(document).ready(function () {
+    // Check for consent
+    let consentCache = localStorage.getItem('consentCache');
+    const $consent = document.querySelector('.consent');
+    if (consentCache) {
+        if (consentCache == 'true') {
+            gtag('js', new Date());
+            gtag('config', 'UA-5816319-19', { 'anonymize_ip': true });
+        }
+    } else {
+        $consent.classList.add('open');
+        const $consentButton = $consent.querySelector('.button--accept');
+        const $optoutButton = $consent.querySelector('.button--optout');
+        $consentButton.onclick = handleConsent;
+        $optoutButton.onclick = handleConsent;
+    }
+
     // Initialize filter states
     let $choices;
     let $infopoetriesContainer;
@@ -164,5 +180,15 @@ $(document).ready(function () {
             $(el).prop('checked', cachedFilters[el.name][el.id].checked);
         });   
         updateGallery();
+    }
+
+    function handleConsent(ev) {
+        let accept = ev.target.classList.contains('button--accept');
+        localStorage.setItem('consentCache', JSON.stringify(accept));
+        $consent.classList.remove('open');
+        if (accept) {
+            gtag('js', new Date());
+            gtag('config', 'UA-5816319-19', { 'anonymize_ip': true });
+        }
     }
 });
