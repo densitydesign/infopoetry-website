@@ -2,7 +2,8 @@
     position: fixed;
     bottom: calc(100vw * 0.01);
     left: calc(100vw * 0.02);
-    width: 400px;
+    width: 85vw;
+    max-width: 400px;
     padding: 0.6rem 1rem;
     display: -webkit-box;
     display: -ms-flexbox;
