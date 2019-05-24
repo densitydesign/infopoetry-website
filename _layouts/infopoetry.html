@@ -70,7 +70,7 @@ layout: default
             {% if page.source and sourceLength != 0 %}
             <p class="info__title"><strong>Source:</strong></p>
             {% if page.source.link %}
-            <a href="{{ page.source.link }}" target="_blank" rel="noopener noreferrer">{{ page.source.name }}</a>
+            <a href="{{ page.source.link }}" target="_blank" rel="noopener noreferrer">{% if page.source.name %}{{ page.source.name }}{% else %}{{ page.source.link }}{% endif %}</a>
             {% else %}
             <p>{{ page.source.name }}</p>
             {% endif %}

@@ -2,7 +2,14 @@
 layout: default
 ---
 <nav>
-    <!-- <div class="nav__left"> -->
+    <!-- <div class="nav__left" data-url="{% case page.title %}
+    {% when 'Home' %}
+    /press
+    {% when 'About' %}
+    /
+    {% else %}
+    /about
+    {% endcase %}"> -->
     <a href="{% case page.title %}
     {% when 'Home' %}
     /about
@@ -24,7 +31,14 @@ layout: default
         </p>
     </a>
     <!-- </div> -->
-    <!-- <div class="nav__right"> -->
+    <!-- <div class="nav__right" data-url="{% case page.title %}
+    {% when 'Home' %}
+    /press
+    {% when 'About' %}
+    /
+    {% else %}
+    /about
+    {% endcase %}"> -->
     <a href="{% case page.title %}
     {% when 'Home' %}
     /press
@@ -47,6 +61,6 @@ layout: default
     </a>
     <!-- </div> -->
 </nav>
-<aside style="left: -96vw;"></aside>
-<aside style="left: 100vw;"></aside>
+<!-- <aside style="left: -96vw;" class="aside__left"></aside>
+<aside style="left: 100vw;" class="aside__rigth"></aside> -->
 {{ content }}
