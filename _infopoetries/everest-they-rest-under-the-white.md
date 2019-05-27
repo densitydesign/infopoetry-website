@@ -15,10 +15,10 @@ images:
   - /assets/images/uploads/infop-10.jpg
   - /assets/images/uploads/infop-5.jpg
 metaphor: |-
-  Wax is a material very particular, it can be
+  Wax is a very particular material,  it can be
   used to evocate some shapes and colors.
   The installation wants to evoke a mountain
-  scenery and a freezing process taking examples
+  the scenery and a freezing process taking examples
   from ice stalactites and snow.
   To do this process I decided to use wax to
   create the aggregations and a sheet of
