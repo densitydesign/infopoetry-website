@@ -4,7 +4,7 @@ subtitle: ''
 author:
   name: Xiao Zhi Xuan
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

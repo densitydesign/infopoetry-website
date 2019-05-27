@@ -3,7 +3,7 @@ title: Messages in Bottles
 author:
   name: Francesco Giudice
 year: 2016-2017
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

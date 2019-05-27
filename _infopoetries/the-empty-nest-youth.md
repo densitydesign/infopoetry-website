@@ -3,7 +3,7 @@ title: The Empty Nest Youth
 author:
   name: Gui Jingjing
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

@@ -3,7 +3,7 @@ title: Il peso della vita
 author:
   name: Marco Mezzadra
 year: 2016-2017
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 material: 'water, glass  cylinder, Stones, red yarn'

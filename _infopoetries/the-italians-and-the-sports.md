@@ -3,7 +3,7 @@ title: The Italians and the sports
 author:
   name: 'Giulia Ponzetta '
 year: 2015-2016
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

@@ -3,7 +3,7 @@ title: Budget Tetris
 author:
   name: Iolanda Piccinini
 year: 2013-2014
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

@@ -4,7 +4,7 @@ subtitle: and the winner is...
 author:
   name: Chiara Pirotta
 year: 2013-2014
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

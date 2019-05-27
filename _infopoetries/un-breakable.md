@@ -3,7 +3,7 @@ title: (un)breakable
 author:
   name: Erica Pellegatta
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: Concrete

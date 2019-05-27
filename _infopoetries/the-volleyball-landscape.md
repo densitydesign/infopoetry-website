@@ -3,7 +3,7 @@ title: The volleyball Landscape
 author:
   name: Chiara Maffessanti
 year: 2013-2014
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

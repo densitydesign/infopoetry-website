@@ -3,7 +3,7 @@ title: Il pianto
 author:
   name: 'Xuanxuan Hou '
 year: 2015-2016
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

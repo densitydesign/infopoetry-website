@@ -3,7 +3,7 @@ title: Break the Silence
 author:
   name: 'Natalia Rosso '
 year: 2017-2018
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

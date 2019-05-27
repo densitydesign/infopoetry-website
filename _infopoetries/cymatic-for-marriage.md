@@ -3,7 +3,7 @@ title: Cymatic for marriage
 author:
   name: 'Yu Xiao Cheng '
 year: 2016-2017
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

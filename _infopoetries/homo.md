@@ -3,7 +3,7 @@ title: Homo
 author:
   name: Lorenzo Positano
 year: 2015-2016
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

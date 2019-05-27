@@ -3,7 +3,7 @@ title: Where Is She?
 author:
   name: Alessandra Facchin
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 material: Tracing Paper

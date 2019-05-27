@@ -4,7 +4,7 @@ subtitle: Risky Irresponsable Portraits
 author:
   name: Jacopo Perico
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

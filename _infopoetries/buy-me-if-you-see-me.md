@@ -3,7 +3,7 @@ title: 'Buy me. If you see me. '
 author:
   name: Alessandra Bufano
 year: 2017-2018
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

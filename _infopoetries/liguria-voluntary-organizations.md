@@ -3,7 +3,7 @@ title: Liguria Voluntary Organizations
 author:
   name: Alberto Boscagli
 year: 2013-2014
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

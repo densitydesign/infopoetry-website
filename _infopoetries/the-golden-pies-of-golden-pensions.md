@@ -3,7 +3,7 @@ title: The golden pies of golden pensions
 author:
   name: Giorgio Falvo
 year: 2017-2018
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: 'Cake, Golden Glaze'

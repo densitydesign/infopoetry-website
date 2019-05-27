@@ -3,7 +3,7 @@ title: Religion dissemination in London
 author:
   name: 'Andrey Vinogradov '
 year: 2016-2017
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

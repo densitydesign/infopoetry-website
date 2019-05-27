@@ -3,7 +3,7 @@ title: The hope of buying a house
 author:
   name: Ziqiao Xie
 year: 2015-2016
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

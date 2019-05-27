@@ -4,7 +4,7 @@ subtitle: 'Essential glossary in eight [not so] small volumes'
 author:
   name: Lucia Di Terlizzi
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Book
 interactive: false
 institute: Politecnico di Milano

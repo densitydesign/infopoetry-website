@@ -3,7 +3,7 @@ title: Youtubers Audiograph
 author:
   name: 'Nicoletta Bruno '
 year: 2014-2015
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

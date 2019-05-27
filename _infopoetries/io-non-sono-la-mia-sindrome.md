@@ -3,7 +3,7 @@ title: Io non sono la mia sindrome
 author:
   name: Sofia Chiarini
 year: 2016-2017
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: Paper

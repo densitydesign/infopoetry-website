@@ -3,7 +3,7 @@ title: The light of life
 author:
   name: Alessio Candido
 year: 2014-2015
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

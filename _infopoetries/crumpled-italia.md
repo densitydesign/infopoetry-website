@@ -3,7 +3,7 @@ title: Crumpled Italia
 author:
   name: Carola Barnaba
 year: 2015-2016
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: Paper

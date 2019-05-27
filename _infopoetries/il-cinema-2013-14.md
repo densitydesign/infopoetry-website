@@ -3,7 +3,7 @@ title: Il cinema 2013-14
 author:
   name: Irene Tribuzio
 year: 2014-2015
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: Paper

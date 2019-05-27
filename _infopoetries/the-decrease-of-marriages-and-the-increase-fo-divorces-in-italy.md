@@ -3,7 +3,7 @@ title: The decrease of marriages and the increase fo divorces in Italy
 author:
   name: 'Pietro Cedone '
 year: 2015-2016
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

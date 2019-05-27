@@ -3,7 +3,7 @@ title: Under The Blankets
 author:
   name: Alessia Musio
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: Fleece Fabric

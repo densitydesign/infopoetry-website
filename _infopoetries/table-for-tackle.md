@@ -3,7 +3,7 @@ title: 'Table for Tackle '
 author:
   name: Paolo Vernocchi
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: 'Paper, Mud, Paint, Cottony Fabric'

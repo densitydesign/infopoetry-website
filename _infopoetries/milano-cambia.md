@@ -3,7 +3,7 @@ title: Milano Cambia
 author:
   name: Giorgia Volinia
 year: 2014-2015
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

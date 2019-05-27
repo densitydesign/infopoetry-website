@@ -3,7 +3,7 @@ title: Atrabile
 author:
   name: Elena Aversa
 year: 2017-2018
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: 'Paper, Tracing Paper, Ink, Water'

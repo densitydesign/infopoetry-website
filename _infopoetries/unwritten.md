@@ -3,7 +3,7 @@ title: Unwritten
 author:
   name: Simone Costagliola
 year: 2016-2017
-topic: Society
+topic: Social Issue
 medium: Book
 interactive: false
 institute: Politecnico di Milano

@@ -3,7 +3,7 @@ title: M'ha Lasciato
 author:
   name: Nicolò Marchetti
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: 'Papier Mache, Cardboard, Wood, Cottony Fabric, Paper'

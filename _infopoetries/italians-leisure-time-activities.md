@@ -3,7 +3,7 @@ title: Italian's Leisure time Activities
 author:
   name: Sofia Girelli
 year: 2013-2014
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

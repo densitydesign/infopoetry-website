@@ -3,7 +3,7 @@ title: Violence against women
 author:
   name: Alessia Mennuni
 year: 2013-2014
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

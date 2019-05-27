@@ -3,7 +3,7 @@ title: 'Ephemerality '
 author:
   name: Martinez Andrea Katherin
 year: 2017-2018
-topic: Society
+topic: Social Issue
 medium: Poster
 interactive: false
 institute: Politecnico di Milano

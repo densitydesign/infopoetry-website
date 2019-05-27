@@ -3,7 +3,7 @@ title: The Pattern Of Violence
 author:
   name: Kacper Bierylo
 year: 2018-2019
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: false
 material: 'Cottony Fabric, Paper'

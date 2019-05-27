@@ -4,7 +4,7 @@ subtitle: Hillary Clinton vs. Donald Trump
 author:
   name: Nicolò Fabio Banfi
 year: 2016-2017
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

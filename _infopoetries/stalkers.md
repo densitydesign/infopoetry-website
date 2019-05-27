@@ -3,7 +3,7 @@ title: Stalkers
 author:
   name: 'Laura Toffetti '
 year: 2015-2016
-topic: Society
+topic: Social Issue
 medium: Video
 interactive: false
 institute: Politecnico di Milano

@@ -3,7 +3,7 @@ title: Eye can see you
 author:
   name: Zara Elmi
 year: 2017-2018
-topic: Society
+topic: Social Issue
 medium: Object
 interactive: true
 material: ' Mirror, Stickers'
