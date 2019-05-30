@@ -1,0 +1,1957 @@
+{
+  "infopoetries" : [
+    {
+      "id" : "201314-01",
+      "title" : "Liguria Voluntary Organizations",
+      "author" : "Boscagli Alberto",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-02",
+      "title" : "Ceci n'est pas une Bonbon",
+      "author" : "Camisasca Jessica",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-03",
+      "title" : "Be a Barman",
+      "author" : "Carbone Federica",
+      "topic" : "Food",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-04",
+      "title" : "Free French Bicycles",
+      "author" : "Casadio Francesca",
+      "topic" : "Transport",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-05",
+      "title" : "Gradiente Picasso",
+      "author" : "Ceciliani Francesco",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-06",
+      "title" : "Andy Warhol's Factory",
+      "author" : "Colombo Alice",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-07",
+      "title" : "Cultural Circle in a Circle",
+      "author" : "Crespi Claudia",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-08",
+      "title" : "As easy as a gum",
+      "author" : "Faggion Lucia",
+      "topic" : "Personal Data",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-09",
+      "title" : "City and Television",
+      "author" : "Ferruccio Esther",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-10",
+      "title" : "London Fishs Exports",
+      "author" : "Francione Chiara",
+      "topic" : "Food",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-11",
+      "title" : "A child soldier Squeeze",
+      "author" : "Gagliardi Chiara",
+      "topic" : "Human Rights",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-12",
+      "title" : "Reading in Numbers",
+      "author" : "Galiano Maria Chiara",
+      "topic" : "Culture",
+      "medium" : "Book",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-13",
+      "title" : "Deadly Inventions - Unfortunate discoveries that broght fame to its inventors and took their lifes with them.",
+      "author" : "Gargano Clara",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-14",
+      "title" : "The Greatest classic Rock albums chart",
+      "author" : "Giacalone Chiara ",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-15",
+      "title" : "Italian's Leisure time Activities",
+      "author" : "Girelli Sofia",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-16",
+      "title" : "Heart trasplantation",
+      "author" : "Grotto Eleonora",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-17",
+      "title" : "My life in Paris as an Erasmus Student",
+      "author" : "Laptes Natalia",
+      "topic" : "Personal Data",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-18",
+      "title" : "The universe",
+      "author" : "Lupatini Daniele",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-19",
+      "title" : "The volleyball Landscape",
+      "author" : "Maffessanti Chiara",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-20",
+      "title" : "This is not for pussies",
+      "author" : "Malimpensa Gianluca",
+      "topic" : "Personal Data",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-21",
+      "title" : "PLUS- The more developed, the more long-lived",
+      "author" : "Mancera Patricia",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-22",
+      "title" : "Violence against women",
+      "author" : "Mennuni Alessia",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-23",
+      "title" : "Rangoli",
+      "author" : "Micci Ylenia",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-24",
+      "title" : "Know your brainwaves",
+      "author" : "Monetini Dario",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-25",
+      "title" : "Sorry for the delay",
+      "author" : "Morelli Matteo",
+      "topic" : "Transport",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-26",
+      "title" : "Young people still at home",
+      "author" : "Nurra Manuel",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-27",
+      "title" : "Miró - The Colours of Poetry",
+      "author" : "Palermo Leda",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-28",
+      "title" : "Black Rhinos then/now",
+      "author" : "Parietti Mattia",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-29",
+      "title" : "Budget Tetris",
+      "author" : "Piccinini Iolanda",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-30",
+      "title" : "The numbers of culture in Italy-Visualizing data concerning the distribution of museums in Italy (2006)",
+      "author" : "Piccolomini Sara",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-31",
+      "title" : "Excess of excises",
+      "author" : "Pirini Bernardini Simone",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-32",
+      "title" : "SOCHI 2014-and the winner is...",
+      "author" : "Pirotta Chiara",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-33",
+      "title" : "Once Upon a Colour",
+      "author" : "Pizzetti Sara",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-34",
+      "title" : "Reading is not flying",
+      "author" : "Poltronieri Mariasilvia",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-35",
+      "title" : "Look mum, I'm Big! - What if you continue to grow like a newborn.",
+      "author" : "Pozzi Matteo",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-36",
+      "title" : "The Wine Prices in Rome from August 2011 to August 2012",
+      "author" : "Romano Federica",
+      "topic" : "Food",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-37",
+      "title" : "LE MÉTRO DE PARIS ",
+      "author" : "Ruocco Annalinda",
+      "topic" : "Transport",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-38",
+      "title" : "How remarkable is the search for culture in italy?",
+      "author" : "Santoro Anastasia",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-39",
+      "title" : "CLIMBING THROUGH WORDS",
+      "author" : "Saponaro Francesco",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-40",
+      "title" : "The Blackest black - Visualizing the early Norwegian black metal scene",
+      "author" : "Scalvi Chiara",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-41",
+      "title" : "The Arab Spring: Revisited",
+      "author" : "Schirner Anne",
+      "topic" : "Human Rights",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-42",
+      "title" : "Shaking Monuments",
+      "author" : "Serri Carlotta",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-43",
+      "title" : "OZ native Plants",
+      "author" : "Tavernini Alice",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-44",
+      "title" : "2011 Italian facilities’ pollution",
+      "author" : "Tosi Alessandro",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-45",
+      "title" : "African Country with the widest farms",
+      "author" : "Zapparoli Michela",
+      "topic" : "Food",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201314-46",
+      "title" : "Polar bear status across fifty years",
+      "author" : "Patuzzo Emilio",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2013-2014",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-01",
+      "title" : "Breast cancer",
+      "author" : "Alberton Luca",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-02",
+      "title" : "1925-2015-“Ma giovin siamo ancora”",
+      "author" : "Ambrosetti Marta",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-03",
+      "title" : "The New Beauty-UK ultimate cosmetic surgery procedures.",
+      "author" : "Arena Nicolò",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-04",
+      "title" : "Multiple Olympic Medalist",
+      "author" : "Bonfanti Luca",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-05",
+      "title" : "Youtubers Audiograph",
+      "author" : "Bruno Nicoletta",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-06",
+      "title" : "The light of life",
+      "author" : "Candido Alessio",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-07",
+      "title" : "The imbalance of malnutrition",
+      "author" : "Caserta Marianna",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-08",
+      "title" : "Brazilian Rainforest Nowadays. How it looks like. How it will look like in 2030",
+      "author" : "Casnati Francesca",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-09",
+      "title" : "The weight of the World //ATLAS",
+      "author" : "Castelli Susanna",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-10",
+      "title" : "Most-played word in songs",
+      "author" : "Catanese Roberto",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-11",
+      "title" : "Ebola Virus Reports",
+      "author" : "Cingottini Chiara",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-12",
+      "title" : "An Annoying Year",
+      "author" : "Colombo Marco",
+      "topic" : "Transport",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-13",
+      "title" : "Morti paradossali",
+      "author" : "Cunsolo Agnese",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-14",
+      "title" : "Infogliphs",
+      "author" : "De Pietri Daniele",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-15",
+      "title" : "183.708,80 cm2: the final Composition",
+      "author" : "De Rossi Giulia",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-16",
+      "title" : "Mexico Drug war",
+      "author" : "Fabbro Claudio",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-17",
+      "title" : "A Brief history of particle zoo",
+      "author" : "Ferrario Luca",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-18",
+      "title" : "Fursx-ray",
+      "author" : "Lo Cicero Enrica",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-19",
+      "title" : "Casuality of car accidents among pedestrians in Italy from 2008 to 2013",
+      "author" : "Lorenzelli Ludovica",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-20",
+      "title" : "The Milan Metro",
+      "author" : "Malcotti Alessandro",
+      "topic" : "Transport",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-21",
+      "title" : "Dead News",
+      "author" : "Mandile Marta",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-22",
+      "title" : "#densityXburden",
+      "author" : "Padovani Francesco",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-23",
+      "title" : "Press Chensorship",
+      "author" : "Pellegrini Lucia",
+      "topic" : "Human Rights",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-24",
+      "title" : "Contaminated worlds",
+      "author" : "Perozzi Sara",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-25",
+      "title" : "Questa casa non è un albergo",
+      "author" : "Righetto Anita",
+      "topic" : "Personal Data",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-26",
+      "title" : "6-7-8-9 gennaio",
+      "author" : "Riva Elisa",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-27",
+      "title" : "Building Skylines",
+      "author" : "Rosina Roberta",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-28",
+      "title" : "Come mandare in fumo sintesi",
+      "author" : "Saporiti Marco",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-29",
+      "title" : "Breaking Bad: Deadly Dynamics",
+      "author" : "Tagliabue Andrea",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-30",
+      "title" : "Dead in Bangladesh The dead in garment factory accidents in Bangladesh",
+      "author" : "Tedoldi Ilaria",
+      "topic" : "Human Rights",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-31",
+      "title" : "Il cinema 2013-14",
+      "author" : "Tribuzio Irene",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-32",
+      "title" : "Milano Cambia",
+      "author" : "Volinia Giorgia",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201415-33",
+      "title" : "Global Game Jam 2015",
+      "author" : "Zoccarato Giulia",
+      "topic" : "Culture",
+      "medium" : "Video",
+      "year" : "2014-2015",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-01",
+      "title" : "Asporta e trapianta il dato",
+      "author" : "Barbieri Piero",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-02",
+      "title" : "Suicidi in Italia",
+      "author" : "Impellizzeri Manuel",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-03",
+      "title" : "Crumpled Italia",
+      "author" : "Barnaba Carola",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-04",
+      "title" : "Flood",
+      "author" : "Bernasconi Maddalena",
+      "topic" : "Environment",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-05",
+      "title" : "What do you know about worldwide hunger?",
+      "author" : "Borrero Garcia Camila",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-06",
+      "title" : "Knots-freedom of expression",
+      "author" : "Brilli Agata",
+      "topic" : "Human Rights",
+      "medium" : "Object",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-07",
+      "title" : "The decrease of marriages and the increase fo divorces in Italy",
+      "author" : "Cedone Pietro",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-08",
+      "title" : "Land of Fires",
+      "author" : "Victims Cirella Chiara",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-09",
+      "title" : "Satellites- Space junk",
+      "author" : "Ciurlo Giacomo",
+      "topic" : "Science",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-10",
+      "title" : "Costi benzina Italia",
+      "author" : "Colombo Carlo Francesco",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-11",
+      "title" : "La lettura di libri in Italia",
+      "author" : "Cosma Lucia",
+      "topic" : "Culture",
+      "medium" : "Object",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-12",
+      "title" : "Air pollution of beijing",
+      "author" : "Dong Siyang",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-13",
+      "title" : "Abraham Water- The history of monotheistic religions",
+      "author" : "Forero Hernandez Juan Sebastian",
+      "topic" : "Culture",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-14",
+      "title" : "Il pianto",
+      "author" : "Hou Xuanxuan",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-15",
+      "title" : "Top Single Italian Charts",
+      "author" : "Pedone Davide",
+      "topic" : "Culture",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-16",
+      "title" : "Top 6 city destination Shooted by instagram users",
+      "author" : "Piazzoli Lorenzo",
+      "topic" : "Digital Traces",
+      "medium" : "Poster",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-17",
+      "title" : "Hiv diseases",
+      "author" : "Piccoli Trapletti Giulia",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-18",
+      "title" : "The Italians and the sports",
+      "author" : "Ponzetta Giulia",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-19",
+      "title" : "Homo",
+      "author" : "Positano Lorenzo",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-20",
+      "title" : "Missing Vessels",
+      "author" : "Rabuffetti Giovanni",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-21",
+      "title" : "Tree cover loss",
+      "author" : "Riente Chiara",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-22",
+      "title" : "Stalkers",
+      "author" : "Toffetti Laura",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201516-23",
+      "title" : "the hope of buying a house",
+      "author" : "Xie Ziqiao",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2015-2016",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-01",
+      "title" : "Messages in Bottles",
+      "author" : "Giudice Francesco",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-02",
+      "title" : "The silent Extintion",
+      "author" : "Bissolotti Alessia",
+      "topic" : "Culture",
+      "medium" : "Book",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-03",
+      "title" : "Unwritten",
+      "author" : "Costagliola Simone",
+      "topic" : "Society",
+      "medium" : "Book",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-04",
+      "title" : "Deforestazione della foresta amazzonica Brasiliana",
+      "author" : "Del Nero Serena",
+      "topic" : "Environment",
+      "medium" : "Book",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-05",
+      "title" : ".,;:!?«»",
+      "author" : "Pazzaglia Claudia",
+      "topic" : "Culture",
+      "medium" : "Book",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-06",
+      "title" : "Lo sciame umano",
+      "author" : "Zerbini Giulia",
+      "topic" : "Environment",
+      "medium" : "Book",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-07",
+      "title" : "Waiting List for Organ Transplanation",
+      "author" : "Aufiero Valeria",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-08",
+      "title" : "Io non sono la mia sindrome",
+      "author" : "Chiarini Sofia",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-09",
+      "title" : "No title",
+      "author" : "Flaim Giacomo",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-10",
+      "title" : "Confini",
+      "author" : "Riva Alessandro",
+      "topic" : "Culture",
+      "medium" : "Object",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-11",
+      "title" : "Lombardia in Agricoltura",
+      "author" : "Tartaglia Matteo",
+      "topic" : "Culture",
+      "medium" : "Object",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-12",
+      "title" : "Atlante delle stelle",
+      "author" : "Benedetti Andrea",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-13",
+      "title" : "Breathing spaces",
+      "author" : "Corona Giulia",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-14",
+      "title" : "Sonifyng Ariel",
+      "author" : "Del Nero Alessandra",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-15",
+      "title" : "Religion dissemination in London",
+      "author" : "Vinogradov Andrey",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-16",
+      "title" : "La Foresta Invisibile (The Invisible Forest)",
+      "author" : "Zotta Alessandro",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-17",
+      "title" : "Presidential tweets:Hillary Clinton vs. Donald Trump",
+      "author" : "Banfi Nicolò Fabio",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-18",
+      "title" : "Il respiro dell'indonesia",
+      "author" : "Brienza Valeria",
+      "topic" : "Environment",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-19",
+      "title" : "Cymatic for marriage",
+      "author" : "Cheng Yu Xiao",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-20",
+      "title" : "Morti Bianche in Italia",
+      "author" : "Gobbo Beatrice",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-21",
+      "title" : "Airplain crash 2015-2017",
+      "author" : "He Gao",
+      "topic" : "Transport",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-22",
+      "title" : "Smog Diary",
+      "author" : "Long Tian",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-23",
+      "title" : "CALLS TO 911 IN US Most occurring medical emergencies in 2016",
+      "author" : "Pincini Ludovico",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-24",
+      "title" : "the gender of the book",
+      "author" : "Si Yang Ling",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-25",
+      "title" : "Il peso della vita",
+      "author" : "Mezzadra Marco",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-26",
+      "title" : "The music releases sonification",
+      "author" : "Bisceglia Vincenzo",
+      "topic" : "Culture",
+      "medium" : "Website",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-27",
+      "title" : "In Praise of the Air",
+      "author" : "Cerioli Nicola",
+      "topic" : "Environment",
+      "medium" : "Website",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201617-28",
+      "title" : "The shot that killed me",
+      "author" : "Nardella Barbara",
+      "topic" : "Human Rights",
+      "medium" : "Website",
+      "year" : "2016-2017",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-01",
+      "title" : "F' stands for Freedom",
+      "author" : "Attolico Nicolas",
+      "topic" : "Digital Traces",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-02",
+      "title" : "Atrabile",
+      "author" : "Aversa Elena",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-03",
+      "title" : "No words to regret",
+      "author" : "Bonadies Barbara Maria",
+      "topic" : "Human Rights",
+      "medium" : "Book",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-04",
+      "title" : "Buy me. If you see me. ",
+      "author" : "Bufano Alessandra",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-05",
+      "title" : "Trouble in orbit - the problem of space junk",
+      "author" : "Casartelli Simone",
+      "topic" : "Science",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-06",
+      "title" : "Touching museums",
+      "author" : "Castagna Anna Silvia",
+      "topic" : "Culture",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-07",
+      "title" : "Swollen Soulmates",
+      "author" : "Cosentino Giulia",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-08",
+      "title" : "Choose The Right 'Cheese' ",
+      "author" : "Cui Yi",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-09",
+      "title" : "Kintsukuroi",
+      "author" : "Dardani Chiara",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-10",
+      "title" : "Eye can See you",
+      "author" : "Elmi Zara",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-11",
+      "title" : "The golden pies of golden pensions",
+      "author" : "Falvo Giorgio",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-12",
+      "title" : "Combinations",
+      "author" : "Forziano Maria Ludovica",
+      "topic" : "Digital Traces",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-13",
+      "title" : "Are we what we eat?",
+      "author" : "Girasoli Maria Alma",
+      "topic" : "Food",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-14",
+      "title" : "Addicted to pleasure",
+      "author" : "He Xue",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-15",
+      "title" : "Painful Breath",
+      "author" : "Huang Xiaoxi",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-16",
+      "title" : "Bitcoin Alchemy",
+      "author" : "Liu Yunxing",
+      "topic" : "Science",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-17",
+      "title" : "Ephemerality ",
+      "author" : "Martinez Andrea Katherin",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-18",
+      "title" : "Falling Giants",
+      "author" : "Modanese Davide",
+      "topic" : "Culture",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-19",
+      "title" : "Do you really have a voice?",
+      "author" : "Morandi Marta",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-20",
+      "title" : "Black Market in Venezuela",
+      "author" : "Piazza Marianna",
+      "topic" : "Human Rights",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-21",
+      "title" : "Corals fading",
+      "author" : "Piva Chiara",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-22",
+      "title" : "I miss myself",
+      "author" : "Qiu Yue",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-23",
+      "title" : "The smallest things make the BIGGEST difference",
+      "author" : "Radovic Katarina",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-24",
+      "title" : "Break the Silence",
+      "author" : "Rosso Natalia",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-25",
+      "title" : "Highs and Lows",
+      "author" : "Sacchi Matteo",
+      "topic" : "Personal Data",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-26",
+      "title" : "Deep In The Oceans",
+      "author" : "Sina Ranjbar",
+      "topic" : "Environment",
+      "medium" : "Video",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-27",
+      "title" : "WEEPING-BERGS Could Beauty survive the Climate Change?",
+      "author" : "Terenghi Ginevra",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201718-28",
+      "title" : "Entangling Dreams",
+      "author" : "Testa Matteo",
+      "topic" : "Science",
+      "medium" : "Object",
+      "year" : "2017-2018",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-01",
+      "title" : "Palestining",
+      "author" : "Angè Lorenzo",
+      "topic" : "Human Rights",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-02",
+      "title" : "Air pollution - a heating and touching matter",
+      "author" : "Argento Alberto",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-03",
+      "title" : "Nobike",
+      "author" : "Armani Davide",
+      "topic" : "Transport",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-04",
+      "title" : "Yard time",
+      "author" : "Banal Matteo",
+      "topic" : "Human Rights",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-05",
+      "title" : "Flower-Maternal Mortality Ratio",
+      "author" : "Bao Yifang",
+      "topic" : "Health",
+      "medium" : "Website",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-06",
+      "title" : "READ the DELAY",
+      "author" : "Bevacqua Giacomo",
+      "topic" : "Transport",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-07",
+      "title" : "The pattern of violence",
+      "author" : "Bierylo Kacper",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-08",
+      "title" : "Nebula",
+      "author" : "Brignoli Nicola",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-09",
+      "title" : "Food Waste—What is the weight of your actions?",
+      "author" : "Brotto Francesca",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-10",
+      "title" : "See what you're missing",
+      "author" : "Cai Yixiao",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-11",
+      "title" : "The colours of languages",
+      "author" : "Calloni Francesca",
+      "topic" : "Culture",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-12",
+      "title" : "[Cities are] problems of organized complexity",
+      "author" : "Cappuccio Eleonora",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-13",
+      "title" : "Noise pollution",
+      "author" : "Chen Wen",
+      "topic" : "Science",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-14",
+      "title" : "Space travel",
+      "author" : "Chen Yi",
+      "topic" : "Science",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-15",
+      "title" : "Obesity in the US : A Growing Concern",
+      "author" : "Chung Wui Kang",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-16",
+      "title" : "Stretto in vita - a circle around eating disorders",
+      "author" : "Dalla Rosa Sara",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-17",
+      "title" : "I have my things - Essential glossary in eight [not so] small volumes",
+      "author" : "Di Terlizzi Lucia",
+      "topic" : "Society",
+      "medium" : "Book",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-18",
+      "title" : "Another Earth",
+      "author" : "Fabiano Lea Mara",
+      "topic" : "Science",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-19",
+      "title" : "where is she?",
+      "author" : "Facchin Alessandra",
+      "topic" : "Society",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-20",
+      "title" : "Ite, Missa Est",
+      "author" : "Ferrari Alessandro",
+      "topic" : "Culture",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-21",
+      "title" : "Can you see the Milky Way?",
+      "author" : "Filippi Elena",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-22",
+      "title" : "RE-SHAPE",
+      "author" : "Grignani Francesca ",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-23",
+      "title" : "The empty nest youth",
+      "author" : "Gui Jingjing",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-24",
+      "title" : "tracing_digits",
+      "author" : "Guido Edoardo",
+      "topic" : "Digital Traces",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-25",
+      "title" : "Spinning Pointe",
+      "author" : "Huang Yuping",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-26",
+      "title" : "Counting the uncounted",
+      "author" : "Kasaee Seyed Sajad",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-27",
+      "title" : "Digital against Physical - a musical revenue revolution",
+      "author" : "Lai Andrea",
+      "topic" : "Culture",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-28",
+      "title" : "THE BLUE RIVERS",
+      "author" : "Lei Yuke",
+      "topic" : "Environment",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-29",
+      "title" : "White Pollution",
+      "author" : "Li Shangshu",
+      "topic" : "Environment",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-30",
+      "title" : "Amazonas: River of magic creatures",
+      "author" : "Lozano Urrego Paula",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-31",
+      "title" : "Everest : they rest under the white",
+      "author" : "Manelli Mariachiara",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-32",
+      "title" : "M'ha lasciato",
+      "author" : "Marchetti Nicolò",
+      "topic" : "Personal Data",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-33",
+      "title" : "PA:SS:EN:GE:RS",
+      "author" : "Mozzillo Giuliano",
+      "topic" : "Digital Traces",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-34",
+      "title" : "Under the blankets",
+      "author" : "Musio Alessia",
+      "topic" : "Personal Data",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-35",
+      "title" : "Invisible People & Visible Lives",
+      "author" : "Niu Yijiang",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-36",
+      "title" : "Terra Bruciata",
+      "author" : "Parrulli Alessia",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-37",
+      "title" : "(un)breakable",
+      "author" : "Pellegatta Erica",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-38",
+      "title" : "R.I.P. - Risky Irresponsable Portraits",
+      "author" : "Perico Jacopo",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-39",
+      "title" : "Insomnia",
+      "author" : "Pilotto Camilla",
+      "topic" : "Health",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-40",
+      "title" : "b(r)uc(i)arsi—The deadly kick",
+      "author" : "Poletto Jacopo",
+      "topic" : "Health",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-41",
+      "title" : "Tasty movie",
+      "author" : "Qian Yujie",
+      "topic" : "Culture",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-42",
+      "title" : "A tiny piece of colors",
+      "author" : "Quiroga Laura Valeria",
+      "topic" : "Environment",
+      "medium" : "Book",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-43",
+      "title" : "World's shooting stars",
+      "author" : "Schiavi Noemi",
+      "topic" : "Science",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-44",
+      "title" : "150.000.000.000",
+      "author" : "Shelna Amarildo",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-45",
+      "title" : "statement of clothes",
+      "author" : "Tang Yaqiao",
+      "topic" : "Environment",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-46",
+      "title" : "Table for tackle ",
+      "author" : "Vernocchi Paolo",
+      "topic" : "Society",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-47",
+      "title" : "Claw Crane Online",
+      "author" : "Wang Ning",
+      "topic" : "Society",
+      "medium" : "Website",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-48",
+      "title" : "Friends in screen",
+      "author" : "Wang Yi",
+      "topic" : "Personal Data",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-49",
+      "title" : "Time flies...",
+      "author" : "Wiedenmann Gabriele",
+      "topic" : "Science",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-50",
+      "title" : "Bike-share Graveyards",
+      "author" : "Wu Bin",
+      "topic" : "Environment",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-51",
+      "title" : "Lonely island",
+      "author" : "Xiao Zhi Xuan",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-52",
+      "title" : "The haze",
+      "author" : "Yang Shiqi",
+      "topic" : "Environment",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-53",
+      "title" : "Domestic Violence",
+      "author" : "Zakerialhoseini Ahmad",
+      "topic" : "Society",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-54",
+      "title" : "War filings",
+      "author" : "Zanetti Daniele",
+      "topic" : "Human Rights",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-55",
+      "title" : "Hot/Cold Streak Effect",
+      "author" : "Zelenovic Luka",
+      "topic" : "Science",
+      "medium" : "Website",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-56",
+      "title" : "Tanks and the city",
+      "author" : "Zeynalli Ulkar",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-57",
+      "title" : "NANJING MASSACRE",
+      "author" : "Zhu Shan",
+      "topic" : "Human Rights",
+      "medium" : "Video",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-58",
+      "title" : "Permanent wave",
+      "author" : "Ziantoni Alice",
+      "topic" : "Environment",
+      "medium" : "Poster",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    },
+    {
+      "id" : "201819-59",
+      "title" : "Insomniacs in pills",
+      "author" : "Zucchi Axia",
+      "topic" : "Health",
+      "medium" : "Object",
+      "year" : "2018-2019",
+      "institute" : "Politecnico di Milano"
+    }
+  ]
+}

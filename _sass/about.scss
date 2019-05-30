@@ -1,3 +1,7 @@
+html {
+    --viz-width: calc(var(--width) - var(--grid-column-unit) * 2 - var(--grid-gap) * 2);
+}
+
 .about__preface {
     display: flex;
     margin-top: 6rem;
@@ -10,4 +14,90 @@
 
 .preface__column p {
     line-height: 1.45;
+}
+
+.viz__stacked {
+    width: var(--viz-width);
+}
+
+.stacked__header {
+    display: flex;
+}
+
+.stacked__buttons p {
+    margin: 0 0 0.5rem;
+}
+
+.viz__matrix {
+    --viz-columns: 6;
+    --viz-width-unit: calc((var(--viz-width) - var(--grid-gap) * (var(--viz-columns) - 1)) / var(--viz-columns));
+    display: grid;
+    grid-template-columns: repeat(var(--viz-columns), var(--viz-width-unit));
+    grid-gap: var(--grid-gap);
+    grid-auto-rows: calc(var(--viz-width-unit) * 0.5);
+}
+
+.matrix__legend {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.matrix__columns {
+    grid-column: 2 / -1;
+    grid-row: 1 / span 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.matrix__columns p {
+    width: calc(var(--viz-width-unit) - 4rem);
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0 calc(var(--grid-gap) + 2rem) 0 2rem;
+    border-bottom: 1px solid var(--color-dark);
+}
+
+.matrix__columns p:last-child {
+    margin: 0 2rem;
+}
+
+.matrix__rows {
+    grid-column: 1 / span 1;
+    padding: calc(var(--viz-width-unit) * 0.22) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.matrix__rows p {
+    position: relative;
+    font-size: 0.8rem;
+    margin: 0;
+    width: 50%;
+    border-right: 1px solid var(--color-dark);
+    padding: 0.5rem 10px 0.5rem 0;
+    text-align: end;
+}
+
+.matrix__rows p::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 6px;
+    border-bottom: 1px solid var(--color-dark);
+}
+
+.matrix__container {
+    grid-column: 2 / -1;
+    display: grid;
+    grid-template-columns: repeat(calc(var(--viz-columns) - 1), var(--viz-width-unit));
+    grid-gap: var(--grid-gap);
+    grid-auto-rows: calc(var(--viz-width-unit) * 0.5);
+}
+
+.matrix__pack {
+    width: var(--viz-width-unit);
+    height: calc(var(--viz-width-unit) * 0.5);
 }

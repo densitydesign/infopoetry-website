@@ -2,7 +2,7 @@ html {
     --width: calc(100vw * 0.96);
     --grid-columns: 12;
     --grid-gap: 12px;
-    --grid-column-unit: calc((var(--width) - var(--grid-gap) * (var(--grid-columns) - 1)) / 12);
+    --grid-column-unit: calc((var(--width) - var(--grid-gap) * (var(--grid-columns) - 1)) / var(--grid-columns));
     --viewport-height: calc(100vh - 100vw * 0.02);
     --grid-row-unit: calc((var(--viewport-height) - var(--grid-gap) * 7) / 8);
     --color-dark: #000000;
