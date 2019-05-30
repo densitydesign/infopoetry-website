@@ -14,7 +14,7 @@ class Stacked {
         const colors = ['#f5db31', '#e88e24', '#d90b24', '#d0528f', '#93167a', '#0b3483', '#508ec4', '#3bb2b1', '#57c632', '#138a39'];
 
         const stackedDimensions = document.querySelector('.viz__stacked').getBoundingClientRect();
-        const margins = { 'top': 100, 'right': 0, 'bottom': 60, 'left': 100 };
+        const margins = { 'top': 60, 'right': 20, 'bottom': 40, 'left': 80 };
         const containerWidth = Math.round(stackedDimensions.width);
         this.barHeight = 50;
         const containerHeight = this.infoByYearAndTopic.length * this.barHeight + margins.top + margins.bottom;
@@ -33,12 +33,13 @@ class Stacked {
             .domain(this.topics)
             .range(colors);
 
-        this.customXAxis = function(g) {
-            const s = g.selection ? g.selection() : g;
-            g.call(d3.axisTop(this.xScale).ticks(this.stackedWidth / 100));
-            s.attr('font-family', 'Libre Baskerville, serif')
+        this.customXAxis = function(g, normalized) {
+            const xAxis = d3.axisTop(this.xScale);
+            normalized ? xAxis.ticks(10, ".0%") : xAxis.ticks(10);
+            g.transition().duration(500).call(xAxis);
+            g.attr('font-family', 'Libre Baskerville, serif')
                 .attr('font-size', '0.8rem');
-            s.selectAll(".domain").remove();
+            g.selectAll(".domain").remove();
         }
 
         const $stacked = d3.select('.viz__stacked');
@@ -55,7 +56,7 @@ class Stacked {
         // draw the x-axis
         this.xGroup = $g.append('g')
             .call(g => {
-                this.customXAxis(g);
+                this.customXAxis(g, false);
             });
 
         // draw the y-axis
@@ -71,6 +72,23 @@ class Stacked {
                     .attr('y2', this.barHeight * 0.35);
                 g.selectAll(".domain").remove();
             });
+
+        // draw legend
+        const $stackedLegend = d3.select('.legend__container')
+            .selectAll('div')
+            .data(this.topics)
+            .join('div')
+                .attr('class', d => d.toLowerCase().replace(/\s/, "-"))
+                .classed('legend__topics', true);
+
+        $stackedLegend.append('div')
+            .datum(d => d)
+            .classed('legend__square', true)
+            .style('background-color', d => this.colorScale(d));
+        
+        $stackedLegend.append('p')
+            .datum(d => d)
+            .text(d => d);
     }
 
     drawStacked(normalized) {
@@ -90,21 +108,27 @@ class Stacked {
         .data(this.stackedTopics)
         .join('g')
             .attr('fill', d => this.colorScale(d.key))
-            .attr('class', d => d.key.toLowerCase())
+            .attr('class', d => d.key.toLowerCase().replace(/\s/, "-"))
             .classed('stacked__topics', true)
         .selectAll('rect')
         .data(d => d)
         .join(
                 enter => enter.append('rect')
+                    .attr('x', d => this.xScale(d[0]))
                     .attr('y', d => this.yScale(d.data.key))
-                    .attr('height', this.yScale.bandwidth())
-            )
-            .attr('x', d => this.xScale(d[0]))
-            .attr('width', d => this.xScale(d[1]) - this.xScale(d[0]));
+                    .attr('width', d => this.xScale(d[1]) - this.xScale(d[0]))
+                    .attr('height', this.yScale.bandwidth()),
+                update => update.call(
+                    update => update.transition().duration(500)
+                        .attr('x', d => this.xScale(d[0]))
+                        .attr('width', d => this.xScale(d[1]) - this.xScale(d[0]))
+                    )
+            );
+            
         
         // update x-axis
         this.xGroup.call(g => {
-                this.customXAxis(g);
+                this.customXAxis(g, normalized);
             });
 
     }
@@ -126,6 +150,21 @@ class Stacked {
             document.querySelector('.stacked__normalized').onclick = () => {
                 stackedViz.drawStacked(true);
             }
+
+            document.querySelectorAll('.legend__topics').forEach(el => {
+                const thisTopic = el.getAttribute('class').replace(" legend__topics", "");
+                el.onmouseover = () => {
+                    document.querySelectorAll('.stacked__topics').forEach(group => {
+                        group.classList.add('faded');
+                    })
+                    document.querySelector(`.stacked__topics.${thisTopic}`).classList.remove('faded');
+                };
+                el.onmouseout = () => {
+                    document.querySelectorAll('.stacked__topics').forEach(group => {
+                        group.classList.remove('faded');
+                    })
+                };
+            })
 
         }).catch(function (error) {
             console.log(error);
