@@ -3,9 +3,13 @@ html {
 }
 
 .about__preface {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 6rem;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .preface__column {
@@ -22,6 +26,8 @@ html {
 }
 
 .stacked__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -35,9 +41,15 @@ html {
 }
 
 .legend__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .legend__container > p {
@@ -58,9 +70,16 @@ html {
 
 .legend__topics {
     width: calc((var(--viz-width) - 250px) / 10);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .legend__topics p {
@@ -74,13 +93,18 @@ html {
 }
 
 .stacked__topics {
-    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+            filter: grayscale(0);
     opacity: 1;
+    -webkit-transition: opacity 0.3s, -webkit-filter 0.5s;
+    transition: opacity 0.3s, -webkit-filter 0.5s;
     transition: filter 0.5s, opacity 0.3s;
+    transition: filter 0.5s, opacity 0.3s, -webkit-filter 0.5s;
 }
 
 .stacked__topics.faded {
-    filter: grayscale(0.8);
+    -webkit-filter: grayscale(0.8);
+            filter: grayscale(0.8);
     opacity: 0.5;
 }
 
@@ -101,8 +125,12 @@ html {
 .matrix__columns {
     grid-column: 2 / -1;
     grid-row: 1 / span 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 
 .matrix__columns p {
@@ -120,10 +148,19 @@ html {
 .matrix__rows {
     grid-column: 1 / span 1;
     padding: calc(var(--viz-width-unit) * 0.22) 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
 }
 
 .matrix__rows p {
