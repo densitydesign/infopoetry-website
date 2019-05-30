@@ -95,9 +95,9 @@
             },
             "currentPage": "{{ page.title }}"
         };
-        // if (cache === null) {
+        if (cache === null) {
             localStorage.setItem('cachedFilters', JSON.stringify(initialState.filters));
-        // }
+        }
     </script>
     <script src="{{ '/assets/js/page.js' | relative_url }}" defer></script>
     <script src="{{ '/assets/js/viz.js' | relative_url }}" defer></script>
