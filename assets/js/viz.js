@@ -136,9 +136,8 @@ class Stacked {
 
 (function () {
     const $viz = document.querySelector('.viz__matrix');
-    if ($viz != null) {
+    if ($viz != null && window.innerWidth > 576) {
         d3.json('/assets/data/infopoetries.json').then(function (data) {
-
             let stackedViz = new Stacked(data.infopoetries);
             stackedViz.drawStacked(false);
             drawMatrix(data.infopoetries);
@@ -186,7 +185,8 @@ function drawMatrix(infopoetries) {
     // console.log(infoMatrix);
     const $matrix = d3.select('.viz__matrix');
     const packWidth = Math.round(document.querySelector('.matrix__legend').getBoundingClientRect().width);
-    const packHeight = Math.round(packWidth * 0.5);
+    const heightRatio = window.innerWidth > 835 ? 0.5 : 0.7;
+    const packHeight = Math.round(packWidth * heightRatio);
     const radius = 4;
 
     // draw column headers
