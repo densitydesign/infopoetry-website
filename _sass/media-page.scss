@@ -82,6 +82,20 @@
     .stacked__buttons {
         min-width: 200px;
     }
+    .stacked__buttons button {
+        box-shadow: none;
+        padding: 0.5rem 0.8rem;
+        background-color: var(--color-light);
+        color: var(--color-dark);
+        border: 1px solid var(--color-dark);
+        font-family: 'Libre Baskerville', serif;
+        cursor: pointer;
+        transition: color 0.3s, background-color 0.3s;
+    }
+    .stacked__buttons button.active {
+        background-color: var(--color-dark);
+        color: var(--color-light);
+    }
     .legend__container {
         display: -webkit-box;
         display: -ms-flexbox;

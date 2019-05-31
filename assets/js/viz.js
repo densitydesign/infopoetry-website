@@ -137,16 +137,24 @@ class Stacked {
 (function () {
     const $viz = document.querySelector('.viz__matrix');
     if ($viz != null && window.innerWidth > 576) {
-        d3.json('/assets/data/infopoetries.json').then(function (data) {
-            let stackedViz = new Stacked(data.infopoetries);
+        d3.tsv('https://docs.google.com/spreadsheets/d/e/2PACX-1vTRG8JFA7yb66dKt5j2DwBAMmORYSiq4ns1qvA1aMLrYNg3WY2eKewPB2qTR-8liIWgImSOc5xmaueI/pub?gid=97653185&single=true&output=tsv').then(function (data) {
+            let stackedViz = new Stacked(data);
             stackedViz.drawStacked(false);
-            drawMatrix(data.infopoetries);
+            drawMatrix(data);
 
-            document.querySelector('.stacked__absolute').onclick = () => {
+            document.querySelector('.stacked__absolute').onclick = (e) => {
+                document.querySelectorAll('.stacked__buttons button').forEach(button => {
+                    button.classList.remove('active');
+                });
+                e.target.classList.add('active');
                 stackedViz.drawStacked(false);
             }
 
-            document.querySelector('.stacked__normalized').onclick = () => {
+            document.querySelector('.stacked__normalized').onclick = (e) => {
+                document.querySelectorAll('.stacked__buttons button').forEach(button => {
+                    button.classList.remove('active');
+                });
+                e.target.classList.add('active');
                 stackedViz.drawStacked(true);
             }
 
@@ -164,7 +172,6 @@ class Stacked {
                     })
                 };
             })
-
         }).catch(function (error) {
             console.log(error);
         })
@@ -220,7 +227,7 @@ function drawMatrix(infopoetries) {
         const packData = year.values.filter(el => el.medium == medium.key);
         const simulation = d3.forceSimulation(packData)
             .force('center', d3.forceCenter(packWidth / 2, packHeight / 2))
-            .force('charge', d3.forceManyBody().strength(5))
+            .force('charge', d3.forceManyBody().strength(1))
             .force('collision', d3.forceCollide(radius));
 
         const circle = d3.select(this).selectAll('circle')
