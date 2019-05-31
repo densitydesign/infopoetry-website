@@ -7,7 +7,9 @@ collections:
   topics:
   mediums:
   institutes:
-  
+
+sass:
+  style: compressed
 
 defaults:
   - scope:
