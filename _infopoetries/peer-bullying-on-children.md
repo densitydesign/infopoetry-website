@@ -2,7 +2,7 @@
 title: Peer Bullying on Children
 author:
   name: Can Wu
-year: 2019-20200
+year: 2019-2020
 topic: Social Issue
 medium: Object
 interactive: false
