@@ -1,5 +1,5 @@
 ---
-title: Beyond DIscovery
+title: Beyond Discovery
 author:
   name: Francesco Mugnaini
 year: 2019-2020
