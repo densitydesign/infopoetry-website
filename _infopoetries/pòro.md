@@ -2,7 +2,7 @@
 title: Pòro
 author:
   name: Valentina Caiola
-year: 2019-2020
+year: 2019-20200
 topic: Culture
 medium: Object
 interactive: false
