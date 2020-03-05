@@ -1,5 +1,5 @@
 ---
-title: Vegan & Vegetarian Cities in USA
+title: Vegan and Vegetarian Cities in USA
 author:
   name: Zina Nadery
 year: 2019-2020
