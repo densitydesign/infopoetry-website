@@ -9,8 +9,7 @@ interactive: false
 material: Foam
 institute: Politecnico di Milano
 featured: /assets/images/uploads/2019-2020_Kozbar-1.jpg
-images:
-  - null
+images: []
 source:
   link: >-
     "https://www.broadbandsearch.net/blog/average-daily-time-on-social-

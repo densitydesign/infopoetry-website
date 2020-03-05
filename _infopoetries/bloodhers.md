@@ -7,10 +7,9 @@ topic: Health
 medium: Website
 interactive: false
 institute: Politecnico di Milano
-featured: /assets/images/uploads/2019-2020_Cittadino-3.png
-images:
-  - /assets/images/uploads/2019-2020_Cittadino-1.png
-  - /assets/images/uploads/2019-2020_Cittadino-2.png
+featured: /assets/images/uploads/2019-2020_Cittadino-1.png
+images: []
+video: /assets/images/uploads/2019-2020_Cittadino_video.m4v
 source:
   name: AVIS
 metaphor: >-
