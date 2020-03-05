@@ -7,7 +7,7 @@ topic: Health
 medium: Video
 interactive: false
 institute: Politecnico di Milano
-featured: /assets/images/uploads/2019-2020_Mengxue-3.jpeg
+featured: /assets/images/uploads/2019-2020_Mengxue-1.jpeg
 video: /assets/images/uploads/2019-2020_Mengxue_video.m4v
 source:
   link: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3629448/'
