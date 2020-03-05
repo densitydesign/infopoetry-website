@@ -13,7 +13,7 @@ images:
   - /assets/images/uploads/2019-2020_Stefani-2.jpg
   - /assets/images/uploads/2019-2020_Stefani-4.jpg
   - /assets/images/uploads/2019-2020_Stefani-7.jpg
-video: /assets/images/uploads/2019-2020_Stefani-5.jpg
+video: ''
 source:
   name: TENGA 2019 Self-Pleasure Report
   link: 'http://www.feelmore.global'
