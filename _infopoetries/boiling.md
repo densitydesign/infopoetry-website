@@ -7,7 +7,7 @@ topic: Environment
 medium: Video
 interactive: false
 institute: Politecnico di Milano
-featured: /assets/images/uploads/2019-2020_Zhang-3.jpeg
+featured: /assets/images/uploads/2019-2020_Zhang-1.jpeg
 video: /assets/images/uploads/2019-2020_Zhang_video.m4v
 source:
   name: BP
