@@ -8,6 +8,7 @@ medium: Video
 interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/2022-2023_altamura_1.png
+video: /assets/images/uploads/2022-2023_altamura.mp4
 source:
   name: "I tracked the time I spend on Instagram and what activities I do in the
     app: viewing and liking a post or a video, receiving and sending messages,
