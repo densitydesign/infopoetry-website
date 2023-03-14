@@ -9,7 +9,7 @@ interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/2022-2023_sghirinzetti_1.png
 video: /assets/images/uploads/2022-2023_sghirinzetti.mp4
-website: https://incattivita.framer.website/
+website: ""
 source:
   name: Based on my gallery of photographs taken from 2016 to 2022, I put together
     a collection of over 180 images depicting different animals I have seen or
