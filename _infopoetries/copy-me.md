@@ -3,7 +3,7 @@ title: Copy me
 author:
   name: Giovanni-Maria Bonassi
 year: 2022-2023
-topic: Culture
+topic: Artificial Intelligence
 medium: Poster
 interactive: false
 institute: Politecnico di Milano
