@@ -1,5 +1,5 @@
 ---
-title: In Cattivita
+title: In Cattività
 author:
   name: Silvia Sghirinzetti
 year: 2022-2023
