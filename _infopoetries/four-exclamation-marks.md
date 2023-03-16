@@ -1,5 +1,5 @@
 ---
-title: "!!!!"
+title: Four exclamation marks
 author:
   name: Giuseppe Defilippis
 year: 2022-2023
