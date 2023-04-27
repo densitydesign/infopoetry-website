@@ -11,6 +11,8 @@ featured: /assets/images/uploads/2022-2023_benedetto_1.jpg
 images:
   - /assets/images/uploads/2022-2023_benedetto_2.jpg
   - /assets/images/uploads/2022-2023_benedetto_3.jpg
+  - /assets/images/uploads/2022-2023_benedetto_4.jpg
+  - /assets/images/uploads/2022-2023_benedetto_5.jpg
 source:
   name: uBlock Origin's logs
 metaphor: 'General Journal: "A general journal is a daybook or subsidiary
