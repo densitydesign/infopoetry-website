@@ -5,7 +5,7 @@ author:
 year: 2023-2024
 topic: Digital Traces
 medium: Object
-interactive: false
+interactive: true
 material: Poster and hourglass
 institute: Politecnico di Milano
 featured: /assets/images/uploads/2023-2024-45_raigoso_6.jpg
