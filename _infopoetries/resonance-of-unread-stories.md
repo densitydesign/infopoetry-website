@@ -8,9 +8,11 @@ medium: Object
 interactive: false
 material: Books
 institute: Politecnico di Milano
-featured: /assets/images/uploads/05.jpg
+featured: /assets/images/uploads/2023-2024-02_ahmadi_3.jpg
 images:
-  - ""
+  - /assets/images/uploads/2023-2024-02_ahmadi_1.jpg
+  - /assets/images/uploads/2023-2024-02_ahmadi_4.jpg
+  - /assets/images/uploads/2023-2024-02_ahmadi_5.jpg
 source:
   name: Own data to determine the average amount of time spent on Instagram in
     three months.
