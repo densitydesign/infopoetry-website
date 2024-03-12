@@ -9,6 +9,11 @@ interactive: false
 material: Measuring Tape
 institute: Politecnico di Milano
 featured: /assets/images/uploads/2023-2024-59_zuo_1.jpg
+images:
+  - /assets/images/uploads/2023-2024-59_zuo_3.jpg
+  - /assets/images/uploads/2023-2024-59_zuo_6.jpg
+  - /assets/images/uploads/2023-2024-59_zuo_4.jpg
+  - ""
 source:
   name: WeChat chat records, from the last three months with five people.
 metaphor: >-
