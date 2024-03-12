@@ -1,5 +1,5 @@
 ---
-title: Metropoli
+title: Metropoly
 author:
   name: Luca Bottani
 year: 2023-2024
