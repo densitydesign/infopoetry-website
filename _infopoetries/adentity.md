@@ -1,7 +1,7 @@
 ---
 title: Adentity
 author:
-  name: Adentity
+  name: Luiz Carlos De Souza Junior
 year: 2023-2024
 topic: Digital Traces
 medium: Poster
