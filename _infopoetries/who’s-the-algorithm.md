@@ -5,7 +5,7 @@ author:
 year: 2023-2024
 topic: Personal Data
 medium: Object
-interactive: false
+interactive: true
 material: Display, keyboard
 institute: Politecnico di Milano
 featured: /assets/images/uploads/2023-2024-44_prinetti_3.jpg
