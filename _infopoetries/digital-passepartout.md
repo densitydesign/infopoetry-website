@@ -1,7 +1,7 @@
 ---
 title: Digital Passepartout
 author:
-  name: Digital Passepartout
+  name: Antonio Sacchet
 year: 2022-2023
 topic: Digital Traces
 medium: Object
