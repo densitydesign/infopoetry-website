@@ -1,5 +1,5 @@
 ---
-title: Moimeme
+title: Moimême
 author:
   name: Riccardo Ventura
 year: 2023-2024
