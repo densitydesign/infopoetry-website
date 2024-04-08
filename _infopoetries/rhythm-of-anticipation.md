@@ -8,7 +8,7 @@ medium: Video
 interactive: false
 institute: Politecnico di Milano
 featured: /assets/images/uploads/2023-2024-48_tesic.jpg
-video: /assets/images/uploads/2023-2024-48_tesic.jpg
+video: /assets/images/uploads/2023-2024-48_tesic.mp4
 source:
   name: IPhone screen time data collected between October 9th and 21st, 2023.
 metaphor: Using the metaphor of a "buffering Screen," the project visually
