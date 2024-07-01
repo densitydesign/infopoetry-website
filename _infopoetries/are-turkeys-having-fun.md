@@ -1,5 +1,5 @@
 ---
-title: Are turkeys having fun?
+title: Are turkers having fun?
 author:
   name: Letizia Agosta
 year: 2021-2022
